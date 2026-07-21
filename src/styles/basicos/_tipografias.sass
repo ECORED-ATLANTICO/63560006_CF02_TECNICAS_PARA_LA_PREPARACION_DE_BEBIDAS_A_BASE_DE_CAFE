@@ -85,6 +85,21 @@
       span
         color: textColor($color-acento-botones)
 
+.titulo-principal__numero.color-acento-botones
+  background-color: $color-acento-botones
+  margin-right: 15px
+  span
+    color: textColor($color-acento-botones)
+
+.titulo-principal__numero--sm
+  min-width: 22px
+  width: 22px
+  height: 22px
+  border-radius: 3px
+  margin-right: 10px
+  span
+    font-size: 0.85rem
+
 .titulo-segundo
   margin-bottom: 48px
   &:after
@@ -209,6 +224,10 @@
     background-color: lighten($color-acento-botones, 35%)
     &:before
       background-color: $color-acento-botones
+  &.color-terciario
+    background-color: $color-terciario-5
+    &:before
+      background-color: $color-terciario
 
 .cajon-b
   position: relative

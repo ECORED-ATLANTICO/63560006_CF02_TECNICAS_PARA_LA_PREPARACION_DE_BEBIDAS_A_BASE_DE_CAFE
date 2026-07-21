@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Alistamiento, mantenimiento y servicio del café.',
+    Description:
+      'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de espresso y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,39 +36,44 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Maquinaria y equipos para la preparación de café',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Mantenimiento básico y rutinas de limpieza',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Insumos, materias primas y grano de café',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Higiene y seguridad en la estación de trabajo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Protocolo de servicio y etiqueta profesional',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Alistamiento preoperacional y verificación de equipos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Procedimientos operativos estandarizados (POES)',
         desarrolloContenidos: true,
       },
     ],
