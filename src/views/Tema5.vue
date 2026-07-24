@@ -10,7 +10,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img.img-fluid(src="@/assets/curso/tema5/img_1.png" alt="Barista conversando con una clienta en la barra de la cafetería")
-      .bloque-texto-t__texto.color-secundario-20.col-10.mb-0
+      .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-12.mb-0
         p.mb-0 El barista no solo prepara la bebida; también la presenta y la sirve. La calidad técnica puede verse opacada por un mal servicio. Este capítulo aborda los principios de atención al cliente, la presentación personal, la comunicación efectiva y las normas de protocolo en diferentes contextos (desde una cafetería informal hasta un evento formal).
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
@@ -29,7 +29,7 @@
           figure.p-0.m-0.h-100
               img(src='@/assets/curso/tema5/img_2.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
 
-    p.mb-4(data-aos="zoom-in-right") Si el cliente muestra interés, el barista puede ofrecer información sobre el origen del café, las notas sensoriales (“notas de chocolate y frutos rojos”) o el método de extracción, pero sin abrumar con tecnicismos. La agilidad es esencial: el tiempo de preparación no debe exceder 3 5 minutos para una bebida sencilla, y en horas pico se debe organizar la comanda por orden de llegada.
+    p.mb-4(data-aos="zoom-in-right") Si el cliente muestra interés, el barista puede ofrecer información sobre el origen del café, las notas sensoriales (“notas de chocolate y frutos rojos”) o el método de extracción, pero sin abrumar con tecnicismos. La agilidad es esencial: el tiempo de preparación no debe exceder 3 - 5 minutos para una bebida sencilla, y en horas pico se debe organizar la comanda por orden de llegada.
     p.mb-4(data-aos="zoom-in-right") El manejo de quejas debe seguir tres pasos: escuchar sin interrumpir, disculparse aunque no sea la culpa directa (un “lamento que haya tenido esa experiencia”), y proponer una solución (cambiar la bebida, reembolso parcial, obsequio para la próxima visita). Registrar la queja en un libro de incidencias ayuda a identificar problemas recurrentes.
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
@@ -39,7 +39,7 @@
         h2.subtitulo-destacado__texto Presentación personal y comunicación
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema5/img_3.png" alt="Barista sirviendo leche en una taza de café")
       .col-12.col-lg-9.mb-0
@@ -55,8 +55,8 @@
     
     .row.justify-content-center
       .col-12.col-lg-5.mb-3.mb-lg-0
-        p.mb-5 La bebida debe servirse en una taza precalentada. Las temperaturas de servicio ideales son: espresso 65 70 °C en taza (la bebida sale a 90 96 °C pero se enfría al contacto con la taza y el ambiente), capuchino y latte 60 65 °C, americano 70 75 °C, bebidas frías (iced latte, frappe) 4 8 °C.
-        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 90 ml para espresso; taza de cerámica de 150 180 ml para capuchino; taza de cerámica o vaso alto de 200 250 ml para latte; taza de cerámica de 180 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
+        p.mb-5 La bebida debe servirse en una taza precalentada. Las temperaturas de servicio ideales son: espresso 65 - 70 °C en taza (la bebida sale a 90 - 96 °C pero se enfría al contacto con la taza y el ambiente), capuchino y latte 60 - 65 °C, americano 70 - 75 °C, bebidas frías (iced latte, frappe) 4 - 8 °C.
+        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 - 90 ml para espresso; taza de cerámica de 150 - 180 ml para capuchino; taza de cerámica o vaso alto de 200 - 250 ml para latte; taza de cerámica de 180 - 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
       .col-12.col-lg-7
         .tarjeta.tarjeta--fondo-img-5.rounded-4.p-3.p-lg-4.mb-0(data-aos="zoom-in-right")
           ul.lista-ul.mb-0
@@ -96,8 +96,8 @@
       h5 Figura 2.
       |    Etiqueta en la mesa (servicio a clientes sentados).
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-none d-lg-block", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3
+      img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid d-block d-lg-none", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3
       figcaption Nota. SENA, (2026).
 </template>
 

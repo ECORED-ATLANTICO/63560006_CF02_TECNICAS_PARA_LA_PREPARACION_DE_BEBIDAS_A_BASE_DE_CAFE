@@ -8,7 +8,7 @@
       h1 Maquinaria y equipos para la preparación de café
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema1/img_1.png" alt="Barista preparando una bebida de café en la máquina de espresso")
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -22,16 +22,16 @@
 
     p.mb-4(data-aos="zoom-in-right") La máquina de espresso profesional es un equipo hidrotérmico que impulsa agua caliente a presión (típicamente 9 bares) a través de una cama de café compactado. Para comprender su funcionamiento y poder realizar un alistamiento adecuado, es necesario conocer sus tres subsistemas: hidráulico, térmico y eléctrico.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-start.mb-4
       .col-12.col-lg-10.order-2.order-lg-1.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--crema")
           div(titulo="El subsistema hidráulico")
             p.mb-0 Está compuesto por la bomba, las tuberías y los grupos portafiltro. La bomba, que puede ser rotativa o vibratoria, es la encargada de presurizar el agua. Las bombas rotativas, utilizadas en máquinas profesionales, ofrecen una presión constante y son más silenciosas, mientras que las vibratorias son más económicas pero menos estables. El agua, una vez presurizada, circula por tuberías de cobre o acero inoxidable hasta los grupos. Cada grupo consta de un portafiltro (que se acopla mediante una junta de goma o silicona), una cesta (sencilla, doble o triple, con orificios calibrados) y un difusor (disco de dispersión que reparte el agua uniformemente sobre la cama de café). La junta del grupo es uno de los elementos que más se desgasta; una junta en mal estado provoca pérdidas de presión y fugas de agua por el borde del portafiltro, lo que obliga a cambiarla cada seis meses aproximadamente.
           div(titulo="El subsistema térmico")
-            p.mb-0 Incluye la caldera (o intercambiador de calor), los termostatos y las lanzas de vapor y agua caliente. La caldera almacena agua a alta temperatura (120–130 °C para generar vapor a 1–1,2 bares). En las máquinas de caldera simple, la misma caldera suministra tanto el agua para el espresso (que debe estar entre 92 y 96 °C) como el vapor; para compensar, el barista debe realizar un cooling flush (purgado) antes de la extracción para bajar la temperatura del grupo. En las máquinas de doble caldera o con intercambiador de calor, el agua de extracción circula por un circuito independiente, manteniendo una temperatura estable sin necesidad de purgas largas. La lanza de vapor extrae vapor para texturizar la leche; su boquilla tiene una o dos salidas y debe limpiarse después de cada uso. La lanza de agua caliente suministra agua a unos 90–95 °C para preparar americanos, té o tareas de limpieza.
+            p.mb-0 Incluye la caldera (o intercambiador de calor), los termostatos y las lanzas de vapor y agua caliente. La caldera almacena agua a alta temperatura (120 - 130 °C para generar vapor a 1 - 1,2 bares). En las máquinas de caldera simple, la misma caldera suministra tanto el agua para el espresso (que debe estar entre 92 y 96 °C) como el vapor; para compensar, el barista debe realizar un cooling flush (purgado) antes de la extracción para bajar la temperatura del grupo. En las máquinas de doble caldera o con intercambiador de calor, el agua de extracción circula por un circuito independiente, manteniendo una temperatura estable sin necesidad de purgas largas. La lanza de vapor extrae vapor para texturizar la leche; su boquilla tiene una o dos salidas y debe limpiarse después de cada uso. La lanza de agua caliente suministra agua a unos 90 - 95 °C para preparar americanos, té o tareas de limpieza.
           div(titulo="El subsistema eléctrico")
             p.mb-0 Incluye la tarjeta controladora, los interruptores y los manómetros. Los manómetros son instrumentos críticos para el barista: uno mide la presión de la caldera (relacionada con la temperatura del vapor) y otro mide la presión de la bomba (que debe mantenerse en 9 bares durante la extracción). Algunas máquinas incorporan un tercer manómetro para la presión de la línea de alimentación de agua. La correcta interpretación de estos manómetros permite ajustar la máquina y detectar fallos a tiempo. Por ejemplo, una lectura baja en el manómetro de la bomba puede indicar un filtro obstruido o una fuga en el sistema hidráulico.
-      .col-4.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-8.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema1/img_3.png" alt="Grupo portafiltro de una máquina de espresso")
 
@@ -48,7 +48,7 @@
               .tarjeta--01.mb-4
               p.mb-3.text-center.px-2
                 strong Caldera o intercambiador de calor:
-                |  Almacena y calienta el agua. En máquinas de doble caldera se puede extraer espresso y vaporizar leche simultáneamente. La presión de la caldera (1–1,2 bares) se correlaciona con la temperatura del vapor (120–130 °C).
+                |  Almacena y calienta el agua. En máquinas de doble caldera se puede extraer espresso y vaporizar leche simultáneamente. La presión de la caldera (1 - 1,2 bares) se correlaciona con la temperatura del vapor (120 - 130 °C).
             .tarjeta.tarjeta--fondo-img-2.h-100
               .tarjeta--02.mb-4
               p.mb-3.text-center.px-2
@@ -63,7 +63,7 @@
               .tarjeta--04.mb-4
               p.mb-3.text-center.px-2
                 strong Manómetros:
-                |  Instrumentos que miden la presión de la bomba (8–10 bares) y la presión de la caldera. Son la referencia visual para diagnosticar el estado de la máquina.
+                |  Instrumentos que miden la presión de la bomba (8 - 10 bares) y la presión de la caldera. Son la referencia visual para diagnosticar el estado de la máquina.
             .tarjeta.tarjeta--fondo-img-2.h-100
               .tarjeta--05.mb-4
               p.mb-3.text-center.px-2
@@ -84,7 +84,7 @@
     p.mb-4(data-aos="flip-left") A continuación, las características, ventajas, limitaciones y usos recomendados de los principales sistemas de caldera en las máquinas de espresso. Al finalizar, identifique cuál es la más adecuada según las necesidades de producción de una cafetería.
 
     .row.justify-content-center.align-items-start.mb-4
-      .col-12.col-lg-8.col-xl-3.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-md-8.col-lg-8.col-xl-3.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img.img-fluid(src="@/assets/curso/tema1/img_11.png" alt="Taza sobre la bandeja de una máquina de espresso")
       .col-12.col-lg-12.col-xl-9.mb-3.mb-lg-0(data-aos="flip-left")
@@ -195,24 +195,24 @@
                 th.col-auto.col-lg-auto Ideal para
             tbody
               tr
-                td Termobloque
+                td.text-start Termobloque
                 td.text-start Calienta agua al pasar por un bloque de aluminio. Temperatura inestable.
-                td No
+                td.text_start No
                 td.text-start Uso doméstico o muy bajo volumen
               tr.bg-table-01
-                td Caldera simple
+                td.text-start Caldera simple
                 td.text-start Una sola caldera para agua de extracción y vapor. Requiere cooling flush.
-                td No
+                td.text-start No
                 td.text-start Cafeterías pequeñas (hasta 20 cafés diarios)
               tr
-                td Intercambiador de calor (HX)
+                td.text-start Intercambiador de calor (HX)
                 td.text-start Caldera de vapor con intercambiador interno. Permite extracción y vapor simultáneos.
-                td Sí
-                td.text-start Cafeterías de volumen medio (20–80 cafés diarios)
+                td.text-start Sí
+                td.text-start Cafeterías de volumen medio (20 - 80 cafés diarios)
               tr.bg-table-01
-                td Doble caldera
+                td.text-start Doble caldera
                 td.text-start Calderas independientes para extracción y vapor. Máxima estabilidad térmica.
-                td Sí
+                td.text-start Sí
                 td.text-start Cafeterías de alta gama y especialidad (más de 80 cafés)
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
@@ -230,9 +230,9 @@
         h2.subtitulo-destacado__texto ¿Por qué es importante el molino?
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-0
+      .col-12.col-lg-3.mb-4
         figure.col-3.mb-4(data-aos="flip-left")
-          img.img-fluid(src="@/assets/curso/tema1/img_13.svg" alt="Taza sobre la bandeja de una máquina de espresso")
+          img.img-fluid(src="@/assets/curso/tema1/img_13.svg", class="img-fluid d-none d-lg-block", alt="Taza sobre la bandeja de una máquina de espresso")
         p.mb-0(data-aos="flip-left") El molino es un equipo clave en la preparación del espresso, ya que influye directamente en la frescura del café molido y en la precisión de la dosis. Una molienda adecuada favorece extracciones uniformes y bebidas de mejor calidad, mientras que un molino mal ajustado o desgastado afecta el sabor y la consistencia del producto final.
       .col-12.col-lg-9.mb-0
         .tarjeta.tarjeta--fondo-img-3.p-4.px-5(data-aos="zoom-in-right")
@@ -260,7 +260,7 @@
       p.mb-0 El alistamiento de la estación de trabajo incluye una serie de utensilios que deben estar limpios, calibrados y organizados. El barista debe verificar su presencia y estado cada mañana, antes de abrir la cafetería:
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--07.mb-4
           p.mb-3.text-center.px-2
@@ -270,7 +270,7 @@
           .tarjeta--08.mb-4
           p.mb-3.text-center.px-2
             strong Pisón o tamper:
-            |  Con base plana de 58 mm de diámetro. Se utiliza para compactar el café molido en la cesta del portafiltro con presión nivelada de 10–15 kg. La base debe mantenerse limpia y sin rayones.
+            |  Con base plana de 58 mm de diámetro. Se utiliza para compactar el café molido en la cesta del portafiltro con presión nivelada de 10 - 15 kg. La base debe mantenerse limpia y sin rayones.
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--09.mb-4
           p.mb-3.text-center.px-2
@@ -290,7 +290,7 @@
           .tarjeta--12.mb-4
           p.mb-3.text-center.px-2
             strong Vajilla:
-            |  Tazas de cerámica en tres tamaños estándar: espresso (60–90 ml), capuchino (150–180 ml) y latte (200–250 ml). Deben precalentarse sobre la bandeja superior de la máquina de espresso antes de su uso.
+            |  Tazas de cerámica en tres tamaños estándar: espresso (60 - 90 ml), capuchino (150 - 180 ml) y latte (200 - 250 ml). Deben precalentarse sobre la bandeja superior de la máquina de espresso antes de su uso.
 
 </template>
 

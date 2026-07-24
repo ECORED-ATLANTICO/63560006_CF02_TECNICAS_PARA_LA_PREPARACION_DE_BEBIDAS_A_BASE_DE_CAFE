@@ -83,7 +83,7 @@
     overflow: hidden 
     pointer-events: none
     @media (max-width: 1024px)
-      width: 120%
+      width: 100%
     @media (max-width: 991px)
       top: -10px
       bottom: -10px
@@ -167,12 +167,27 @@
     background-position: center
     overflow: hidden 
     pointer-events: none
+    @media (max-width: 1024px)
+      width: 120%
+    @media (max-width: 991px)
+      top: -10px
+      bottom: -10px
+      left: 0px
+      right: 0px
+      width:100% 
+    @media (max-width: 767px)
+      top: 0px
+      bottom: 0px
+      left: 0px
+      right: 0px
+      width: 100%
     *
       color: textColor($color-sistema-h)
     &--borde
       background-color: $white
       color: textColor(lighten($color-sistema-h, 50%))
       border: solid 4px $color-sistema-h
+    
 
   &--fondo-img-7
     background-image: url(../assets/curso/tema2/img_2.png) !important

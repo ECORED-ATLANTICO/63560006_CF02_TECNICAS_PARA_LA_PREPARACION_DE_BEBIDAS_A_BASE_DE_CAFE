@@ -8,7 +8,7 @@
       h1 Procedimientos operativos estandarizados (POES)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-4.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema7/img_1.png" alt="Tazas y jarras de cerámica organizadas junto a granos de café")
       .col-12.col-lg-9.mb-0
@@ -54,7 +54,7 @@
               i.lista-ul__vineta
               strong Registro asociado:
               |  número de formato donde se documenta la ejecución.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema7/img_3.png" alt="Calendario marcando una fecha con un lápiz")
 
@@ -76,10 +76,10 @@
         ul.lista-ul.mb-0
           li
             i.lista-ul__vineta
-            | Limpieza de la lanza de vapor (después de cada uso y al final de la jornada). Backflush diario con agua.
+            | Limpieza de la lanza de vapor (después de cada uso y al final de la jornada). <em>Backflush</em> diario con agua.
           li
             i.lista-ul__vineta
-            | Backflush semanal con detergente.
+            | <em>Backflush</em> semanal con detergente.
           li
             i.lista-ul__vineta
             | Limpieza del molino (cepillado de fresas).
@@ -90,7 +90,7 @@
             i.lista-ul__vineta
             | Desinfección de superficies (mesón, barra).
 
-    p.mb-4(data-aos="zoom-in-right") Cada POES debe especificar la concentración del desinfectante (ej. hipoclorito de sodio a 100 ppm durante 5 minutos) y el método de verificación (inspección visual, papel indicador de cloro). En el caso del backflush con detergente, nunca se debe exceder la dosis recomendada por el fabricante (normalmente 1-2 g por aplicación). Un exceso de detergente puede generar espuma residual difícil de eliminar.
+    p.mb-4(data-aos="zoom-in-right") Cada POES debe especificar la concentración del desinfectante (ej. hipoclorito de sodio a 100 ppm durante 5 minutos) y el método de verificación (inspección visual, papel indicador de cloro). En el caso del <em>backflush</em> con detergente, nunca se debe exceder la dosis recomendada por el fabricante (normalmente 1 - 2 g por aplicación). Un exceso de detergente puede generar espuma residual difícil de eliminar.
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -119,7 +119,7 @@
             li.mb-0
               i.lista-ul__vineta
               | Registrar la información en un formato de recepción (fecha, proveedor, lote, temperatura, firma del responsable). Este registro es obligatorio según la Resolución 2674.
-      .col-5.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema7/img_5.png" alt="Persona diligenciando un formato digital de registro en un computador")
 
@@ -127,7 +127,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Tabla 4.
-      |  Criterios de aceptación/rechazo de insumos
+      |  Criterios de aceptación / rechazo de insumos
     .tabla-a.color-terciario.mb-5(data-aos="flip-left")
       table
         caption
@@ -146,7 +146,7 @@
             td.text-start Olor fresco, sin grumos, color blanco uniforme
           tr.bg-table-01
             td Café tostado (grano)
-            td.text-start Ambiente (15-20 °C)
+            td.text-start Ambiente (15 - 20 °C)
             td.text-start Bolsa con válvula, sin roturas
             td.text-start Fecha de tostión ≤ 30 días; ausencia de granos defectuosos
           tr
@@ -175,7 +175,7 @@
             li
               i.lista-ul__vineta
               strong FR LIMP 01:
-              |  registro de limpieza diaria de equipos (portafiltro, backflush, lanza, bandeja).
+              |  registro de limpieza diaria de equipos (portafiltro, <em>backflush</em>, lanza, bandeja).
             li
               i.lista-ul__vineta
               strong FR DES 02:
@@ -196,7 +196,7 @@
               i.lista-ul__vineta
               strong Bitácora de incidencias:
               |  averías, accidentes, quejas de clientes, no conformidades.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema7/img_6.png" alt="Barista sonriendo mientras diligencia un formato en una tabla portapapeles")
 

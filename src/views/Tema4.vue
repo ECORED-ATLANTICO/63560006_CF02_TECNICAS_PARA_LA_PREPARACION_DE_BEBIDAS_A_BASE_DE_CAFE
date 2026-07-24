@@ -8,7 +8,7 @@
       h1 Higiene y seguridad en la estación de trabajo
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-4.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_1.png")
       .col-12.col-lg-9.mb-0
@@ -39,7 +39,7 @@
             li
               i.lista-ul__vineta
               | Mantener uñas cortas, sin esmalte, y sin joyas (anillos, pulseras, relojes) durante la manipulación de alimentos, porque pueden caer o acumular microorganismos.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_3.png" alt="Barista con delantal sonriendo junto a tazas de café")
 
@@ -62,7 +62,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-2.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema4/img_5.svg")
+          img.img-fluid(src="@/assets/curso/tema4/img_5.svg", class="img-fluid d-none d-lg-block")
       .col-12.col-lg-11.mb-3.mb-lg-0
         p.mb-0(data-aos="zoom-in-right") Las conductas prohibidas en el área de preparación (artículo 12 de la Resolución 2674) incluyen: comer, beber, fumar, mascar chicle; toser o estornudar sobre los alimentos o equipos; usar el teléfono móvil o cualquier dispositivo personal durante la manipulación; usar perfumes o lociones con olores fuertes (pueden transferirse al café).
 
@@ -90,7 +90,7 @@
           |  asignar un color a cada tipo de utensilio para evitar confusiones. La siguiente tabla sugiere una asignación práctica.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-8.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_7.png" alt="Filtro de café con café molido y cuchara")
       .col-12.col-lg-9.mb-0
@@ -107,20 +107,20 @@
                 th.col-auto.col-lg-auto Uso
             tbody
               tr.p-2
-                td Blanco
-                td Leche entera
+                td.text-start Blanco
+                td.text-start Leche entera
               tr.p-2.bg-table-01
-                td Azul
-                td Leche desnatada o vegetal (soja, avena, almendra)
+                td.text-start Azul
+                td.text-start Leche desnatada o vegetal (soja, avena, almendra)
               tr
-                td Rojo
-                td Café molido (manipulación directa)
+                td.text-start Rojo
+                td.text-start Café molido (manipulación directa)
               tr.bg-table-01
-                td Verde
-                td Limpieza de superficies (nunca se mezcla con otros)
+                td.text-start Verde
+                td.text-start Limpieza de superficies (nunca se mezcla con otros)
               tr
-                td Amarillo
-                td Utensilios para salsas o complementos (canela, cacao)
+                td.text-start Amarillo
+                td.text-start Utensilios para salsas o complementos (canela, cacao)
 
     .d-flex.align-items-center.lista-numerada__item.mb-4(data-aos="zoom-in-right")
       .titulo-principal__numero.titulo-principal__numero-1.titulo-principal__numero--sm.color-acento-botones.flex-shrink-0
@@ -152,7 +152,7 @@
       .subtitulo-destacado__fondo
         h2.subtitulo-destacado__texto c.	Manejo seguro de equipos
 
-    p.mb-4(data-aos="zoom-in-right") La máquina de espresso opera con agua a 90 96 °C y vapor a 120 130 °C, además de electricidad. Los riesgos más frecuentes son quemaduras (por salpicaduras o contacto con la caldera), cortes (al desmontar fresas del molino), electrocución (derrames sobre componentes eléctricos) y resbalones (pisos húmedos).
+    p.mb-4(data-aos="zoom-in-right") La máquina de espresso opera con agua a 90 - 96 °C y vapor a 120 - 130 °C, además de electricidad. Los riesgos más frecuentes son quemaduras (por salpicaduras o contacto con la caldera), cortes (al desmontar fresas del molino), electrocución (derrames sobre componentes eléctricos) y resbalones (pisos húmedos).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
@@ -174,7 +174,7 @@
             li
               i.lista-ul__vineta
               | Colocar tapetes antideslizantes en las zonas de preparación. Usar calzado cerrado con suela de goma.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-8.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_8.png" alt="Manos con guantes desinfectando junto a rama de café")
 
@@ -182,9 +182,9 @@
       h5 Figura 1.
       |    procedimiento seguro para cambiar las fresas del molino
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-block d-lg-none").mb-3
-      figcaption Nota. SENA,(2026). 
+      img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-none d-lg-block", alt="Representa el procedimiento para cambiar las fresas de un molino de café en siete pasos consecutivos. Cada paso está representado por un círculo blanco conectado por una línea curva de color morado y un recuadro horizontal con un degradado de color. Los pasos son: 1) Desconectar el molino de la corriente eléctrica. 2) Retirar la tolva y el seguro de las fresas según el manual del fabricante. 3) Usar guantes de cuero para extraer las fresas. 4) Limpiar la cámara con una aspiradora, evitando el uso de aire comprimido y sin introducir los dedos en la cámara. 5) Instalar las nuevas fresas siguiendo las marcas de alineación del fabricante. 6) Ajustar el punto cero y retroceder uno o dos puntos de molienda. 7) Realizar una prueba con café y desechar las primeras dosis antes de iniciar la operación.").mb-3
+      img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-block d-lg-none", alt="Representa el procedimiento para cambiar las fresas de un molino de café en siete pasos consecutivos. Cada paso está representado por un círculo blanco conectado por una línea curva de color morado y un recuadro horizontal con un degradado de color. Los pasos son: 1) Desconectar el molino de la corriente eléctrica. 2) Retirar la tolva y el seguro de las fresas según el manual del fabricante. 3) Usar guantes de cuero para extraer las fresas. 4) Limpiar la cámara con una aspiradora, evitando el uso de aire comprimido y sin introducir los dedos en la cámara. 5) Instalar las nuevas fresas siguiendo las marcas de alineación del fabricante. 6) Ajustar el punto cero y retroceder uno o dos puntos de molienda. 7) Realizar una prueba con café y desechar las primeras dosis antes de iniciar la operación.").mb-3
+      figcaption Nota. SENA, (2026). 
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -210,14 +210,14 @@
             li
               i.lista-ul__vineta
               | Almacenar los residuos en bolsas cerradas y depositarlas en contenedores exteriores con tapa hermética, diariamente.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_11.png" alt="Filtros de café comparando molienda clara y oscura")
 
     h5.mb-4(data-aos="zoom-in-right") Señales de infestación de plagas:
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-9.h-100
           .tarjeta--23.mb-4
           p.mb-3.text-center.px-2

@@ -31,11 +31,11 @@
               img(src='@/assets/curso/tema3/img_2.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_3.png" alt="Café recién tostado en tolva de enfriamiento junto a cerezas de café")
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
-        p.mb-4(data-aos="zoom-in-right") El lugar de almacenamiento debe ser fresco (15-20 °C), seco (humedad relativa inferior al 60 %) y alejado de fuentes de calor (estufa, horno) y olores fuertes (especias, productos de limpieza). El café es higroscópico y absorbe olores del ambiente. No se recomienda almacenar el café tostado en el refrigerador, porque la condensación al abrir la bolsa moja el grano y acelera el deterioro.
+        p.mb-4(data-aos="zoom-in-right") El lugar de almacenamiento debe ser fresco (15 - 20 °C), seco (humedad relativa inferior al 60 %) y alejado de fuentes de calor (estufa, horno) y olores fuertes (especias, productos de limpieza). El café es higroscópico y absorbe olores del ambiente. No se recomienda almacenar el café tostado en el refrigerador, porque la condensación al abrir la bolsa moja el grano y acelera el deterioro.
         p.mb-0(data-aos="zoom-in-right") Finalmente, se debe aplicar el principio PEPS (Primero en Entrar, Primero en Salir). Las bolsas más antiguas deben colocarse al frente y usarse primero. Muchos baristas pegan una etiqueta con la fecha de tostión en cada bolsa y las ordenan en la estantería por fecha, de más antigua a más nueva.
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
@@ -56,7 +56,7 @@
     p.mb-4(data-aos="zoom-in-right") La presencia de estos defectos afecta la clasificación física del café y, por tanto, su precio. En una cafetería de especialidad, se recomienda rechazar lotes con más de cinco defectos por muestra de 300 g. Para facilitar la identificación, se presentan los principales defectos en el siguiente carrusel de tarjetas, donde cada tarjeta combina una descripción visual con las causas y efectos.
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-8.h-100
           .tarjeta--18.mb-4
           p.mb-3.text-center.px-2
@@ -87,8 +87,8 @@
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-6.mb-3
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-4.mb-lg-0.mb-3
-            .col-12.col-lg-8.mb-lg-0
+            .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-8.mb-lg-0
               p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente podcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-8(
                 texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos </I>"
@@ -105,17 +105,17 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img.img-fluid(src="@/assets/curso/tema3/img_11.png" alt="Almendras, soya y coco junto a sus bebidas vegetales")
-      .bloque-texto-t__texto.color-secundario-20.col-10.mb-0
+      .bloque-texto-t__texto.color-secundario-20.col-12-col-lg-10.mb-0
         p.mb-0 La leche es un alimento de alto riesgo sanitario. El barista debe aplicar los mismos controles críticos que en cualquier manipulador de alimentos. En la recepción de leche pasteurizada, se debe verificar la temperatura (≤ 4 °C al momento de la entrega), la integridad del envase (sin abolladuras, sin fugas, sin óxido) y la fecha de vencimiento. No se aceptan productos próximos a vencer si no se van a utilizar de inmediato. Organolépticamente, la leche debe ser de color blanco uniforme, olor fresco, sabor característico, sin grumos ni separación excesiva.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-4.col-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-md-8.col-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_12.png" alt="Leche siendo vertida sobre café helado")
       .col-12.col-lg-10.mb-0
         p.mb-3(data-aos="zoom-in-right") El almacenamiento de la leche en la cafetería debe hacerse en un refrigerador exclusivo para lácteos, separado de productos crudos (carnes, huevos) para evitar contaminación cruzada. La leche no debe permanecer a temperatura ambiente más de dos horas (Decreto 616 de 2006, reglamento técnico para leche). Pasado ese tiempo, debe desecharse, no refrigerarse de nuevo.
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
-          p.mb-0 Las alternativas vegetales (leche de avena, soja, almendra, coco) están cada vez más presentes en las cafeterías colombianas. Deben cumplir los mismos requisitos de temperatura y fechas. Es importante revisar las etiquetas para identificar alérgenos (soja, frutos secos) y estabilizantes. La leche de avena es actualmente la más popular por su capacidad de generar microespuma sedosa y su sabor neutro. Cada marca de leche vegetal requiere un ajuste en la técnica de cremado: generalmente, temperaturas más bajas (55-58 °C) y menos tiempo de estiramiento porque no toleran igual calor que la leche de vaca.
+          p.mb-0 Las alternativas vegetales (leche de avena, soja, almendra, coco) están cada vez más presentes en las cafeterías colombianas. Deben cumplir los mismos requisitos de temperatura y fechas. Es importante revisar las etiquetas para identificar alérgenos (soja, frutos secos) y estabilizantes. La leche de avena es actualmente la más popular por su capacidad de generar microespuma sedosa y su sabor neutro. Cada marca de leche vegetal requiere un ajuste en la técnica de cremado: generalmente, temperaturas más bajas (55 - 58 °C) y menos tiempo de estiramiento porque no toleran igual calor que la leche de vaca.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -127,7 +127,7 @@
     .tarjeta--bg-img.color-terciario-10.rounded-4.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-12.col-lg-7.p-5
-          p.mb-0 El agua para preparar café debe ser potable según el Decreto 1575 de 2007 del Ministerio de la Protección Social. Además de la calidad microbiológica, se deben medir parámetros fisicoquímicos: TDS (sólidos disueltos totales) entre 75-250 mg/L, pH 6,5-7,5, dureza (como CaCO₃) entre 50-175 mg/L. El barista debe asegurar que el sistema de filtración (filtro de sedimentos + carbón activado + ablandador si es necesario) esté en buen estado y con cambios registrados. Si la dureza del agua supera los 150 mg/L, es imprescindible usar un ablandador para evitar incrustaciones en la caldera de la máquina de espresso.
+          p.mb-0 El agua para preparar café debe ser potable según el Decreto 1575 de 2007 del Ministerio de la Protección Social. Además de la calidad microbiológica, se deben medir parámetros fisicoquímicos: TDS (sólidos disueltos totales) entre 75 - 250 mg / L, pH 6,5 - 7,5, dureza (como CaCO₃) entre 50 - 175 mg / L. El barista debe asegurar que el sistema de filtración (filtro de sedimentos + carbón activado + ablandador si es necesario) esté en buen estado y con cambios registrados. Si la dureza del agua supera los 150 mg / L, es imprescindible usar un ablandador para evitar incrustaciones en la caldera de la máquina de espresso.
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
               img(src='@/assets/curso/tema3/img_14.png', class="img-fluid w-100 h-100 object-fit-cover" alt="Agua en ebullición dentro de una tetera de vidrio").p-0
@@ -137,7 +137,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-2.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema3/img_15.svg")
+          img.img-fluid(src="@/assets/curso/tema3/img_15.svg", class="img-fluid d-none d-lg-block")
       .col-12.col-lg-11.mb-3.mb-lg-0
         p.mb-0(data-aos="zoom-in-right") En Colombia, la Resolución 5109 de 2005 (modificada por la Resolución 333 de 2011) exige etiquetado de alérgenos en alimentos envasados. En la cafetería, el barista debe estar atento a los ingredientes con potencial alergénico: leche (lactosa), soja, frutos secos (almendra), gluten (presente en algunos jarabes o espesantes). Se recomienda tener una lista actualizada de los alérgenos presentes en cada insumo, visible para el personal y disponible para los clientes que pregunten.
 </template>
