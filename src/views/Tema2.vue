@@ -116,7 +116,7 @@
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
               p.mb-0.p-4.px-4 La calidad de un espresso no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
-              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-8(
+              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-12.col-md-8(
                 texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos</I>"
                 :audio="require('@/assets/curso/tema2/img_6.png')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")

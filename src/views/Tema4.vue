@@ -217,7 +217,7 @@
     h5.mb-4(data-aos="zoom-in-right") Señales de infestación de plagas:
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6 col-xl-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-9.h-100
           .tarjeta--23.mb-4
           p.mb-3.text-center.px-2

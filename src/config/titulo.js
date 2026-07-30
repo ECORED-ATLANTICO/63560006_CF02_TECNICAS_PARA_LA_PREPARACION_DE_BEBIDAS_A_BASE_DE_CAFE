@@ -1,1 +1,1 @@
-module.exports = 'Alistamiento, mantenimiento y servicio del café.'
+module.exports = 'Alistamiento, mantenimiento y servicio del café'

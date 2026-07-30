@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Alistamiento, mantenimiento y servicio del café.',
+    Name: 'Alistamiento, mantenimiento y servicio del café',
     Description:
       'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de espresso y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },

@@ -56,7 +56,7 @@
     p.mb-4(data-aos="zoom-in-right") La presencia de estos defectos afecta la clasificación física del café y, por tanto, su precio. En una cafetería de especialidad, se recomienda rechazar lotes con más de cinco defectos por muestra de 300 g. Para facilitar la identificación, se presentan los principales defectos en el siguiente carrusel de tarjetas, donde cada tarjeta combina una descripción visual con las causas y efectos.
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6 col-xl-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-8.h-100
           .tarjeta--18.mb-4
           p.mb-3.text-center.px-2
@@ -90,7 +90,7 @@
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
               p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente podcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
-              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-8(
+              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-12.col-md-8(
                 texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos </I>"
                 :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
@@ -105,7 +105,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img.img-fluid(src="@/assets/curso/tema3/img_11.png" alt="Almendras, soya y coco junto a sus bebidas vegetales")
-      .bloque-texto-t__texto.color-secundario-20.col-12-col-lg-10.mb-0
+      .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
         p.mb-0 La leche es un alimento de alto riesgo sanitario. El barista debe aplicar los mismos controles críticos que en cualquier manipulador de alimentos. En la recepción de leche pasteurizada, se debe verificar la temperatura (≤ 4 °C al momento de la entrega), la integridad del envase (sin abolladuras, sin fugas, sin óxido) y la fecha de vencimiento. No se aceptan productos próximos a vencer si no se van a utilizar de inmediato. Organolépticamente, la leche debe ser de color blanco uniforme, olor fresco, sabor característico, sin grumos ni separación excesiva.
 
     .row.justify-content-center.align-items-center.mb-4

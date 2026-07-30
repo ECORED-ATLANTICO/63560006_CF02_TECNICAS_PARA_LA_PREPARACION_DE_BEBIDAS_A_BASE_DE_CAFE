@@ -43,7 +43,7 @@
           img.img-fluid(src="@/assets/curso/tema1/img_4.png" alt="Persona disfrutando una bebida de café")
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="flip-left")
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-          SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
+          SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-6").p-2.rounded-3
             .tarjeta.tarjeta--fondo-img-2.h-100
               .tarjeta--01.mb-4
               p.mb-3.text-center.px-2
@@ -197,7 +197,7 @@
               tr
                 td.text-start Termobloque
                 td.text-start Calienta agua al pasar por un bloque de aluminio. Temperatura inestable.
-                td.text_start No
+                td.text-start No
                 td.text-start Uso doméstico o muy bajo volumen
               tr.bg-table-01
                 td.text-start Caldera simple
@@ -238,15 +238,15 @@
         .tarjeta.tarjeta--fondo-img-3.p-4.px-5(data-aos="zoom-in-right")
           SlyderA(tipo="a").tarjeta.tarjeta--blanca.p-3.p-md-4.p-lg-3.p-xl-5.mb-0
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10.mb-0
+              .col-12.col-md-10.col-lg-10.mb-0
                 h5.mb-4 Molino dosificador (volumétrico)
                 p.mb-0 Este sistema almacena el café molido en una cámara compartimentada y libera una cantidad aproximada mediante una palanca. Aunque fue ampliamente utilizado, presenta dos limitaciones importantes: el café permanece expuesto al aire, perdiendo aromas y frescura, y la dosis puede variar debido a cambios en la densidad del café ocasionados por la humedad o el grado de molienda.
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10.mb-0
+              .col-12.col-md-10.col-lg-10.mb-0
                 h5.mb-4 Molino a demanda (On Demand)
                 p.mb-0 Es el sistema utilizado en la mayoría de cafeterías de especialidad. Muele únicamente la cantidad de café necesaria en el momento de la preparación, conservando la frescura del producto y permitiendo una dosificación más precisa. Esto mejora la consistencia de las extracciones, reduce el desperdicio y facilita la estandarización de las bebidas.
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10.mb-0
+              .col-12.col-md-10.col-lg-10.mb-0
                 h5.mb-4 Mantenimiento del molino.
                 p.mb-0 El estado de las fresas o discos de molienda es determinante para obtener partículas uniformes. Cuando estas se desgastan, aumentan las variaciones en el tamaño de la molienda, lo que ocasiona extracciones irregulares y sabores no deseados. Un mantenimiento preventivo y el reemplazo oportuno de las fresas contribuyen a conservar la calidad del café y prolongar la vida útil del equipo.
 
@@ -260,7 +260,7 @@
       p.mb-0 El alistamiento de la estación de trabajo incluye una serie de utensilios que deben estar limpios, calibrados y organizados. El barista debe verificar su presencia y estado cada mañana, antes de abrir la cafetería:
 
     .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6 col-xl-4").p-2.rounded-3
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--07.mb-4
           p.mb-3.text-center.px-2
