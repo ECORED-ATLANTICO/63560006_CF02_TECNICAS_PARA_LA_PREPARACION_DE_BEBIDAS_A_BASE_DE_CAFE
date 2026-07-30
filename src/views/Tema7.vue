@@ -102,7 +102,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-10.order-2.order-lg-1.mb-0
-        .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
+        .tarjeta.color-secundario-20.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
           ul.lista-ul.mb-0
             li
               i.lista-ul__vineta

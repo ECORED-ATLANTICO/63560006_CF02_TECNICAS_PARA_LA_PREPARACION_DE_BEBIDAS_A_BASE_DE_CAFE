@@ -91,11 +91,18 @@
       right: 0px
       width: 100% 
     @media (max-width: 767px)
-      top: -60px
+      top: 0px
       bottom: 0px
       left: -50px
       right: 0px
       width: 180%
+      height: 150% !important
+    @media (max-width: 424px)
+      top: -60px
+      bottom: 0px
+      left: -50px
+      right: 0px
+      width: 100% !important
       height: 150% !important
     *
       color: textColor($color-sistema-h)
@@ -153,6 +160,25 @@
       background-color: $white
       color: textColor(lighten($color-sistema-h, 50%))
       border: solid 4px $color-sistema-h
+  
+  &--fondo-img-5_1
+    background-image: url(../assets/curso/tema3/img_16.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: right center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(lighten($color-sistema-h, 50%))
+      border: solid 4px $color-sistema-h
 
   &--fondo-img-6
     background-image: url('../assets/curso/tema2/img_13.png') !important
@@ -190,7 +216,7 @@
     
 
   &--fondo-img-7
-    background-image: url(../assets/curso/tema2/img_2.png) !important
+    background-image: url(../assets/curso/tema2/img_20.png) !important
     border-radius: 20px
     padding: 12rem 1rem 1rem 1rem
     position: relative
@@ -231,7 +257,7 @@
       border: solid 4px $color-sistema-h
 
   &--fondo-img-9
-    background-image: url(../assets/curso/tema4/img_2.png) !important
+    background-image: url(../assets/curso/tema4/img_16.png) !important
     border-radius: 20px
     padding: 12rem 1rem 1rem 1rem
     position: relative
@@ -282,7 +308,7 @@
 
   &--01::before
     position: absolute
-    content: url('../assets/curso/tema1/img_5.svg')
+    content: url('../assets/curso/tema1/img_5.png')
     top: 30px
     left: 50%
     display: block
@@ -293,7 +319,7 @@
 
   &--02::before
     position: absolute
-    content: url('../assets/curso/tema1/img_6.svg')
+    content: url('../assets/curso/tema1/img_6.png')
     top: 30px
     left: 50%
     display: block
@@ -304,7 +330,7 @@
 
   &--03::before
     position: absolute
-    content: url('../assets/curso/tema1/img_7.svg')
+    content: url('../assets/curso/tema1/img_7.png')
     top: 30px
     left: 50%
     display: block
@@ -315,7 +341,7 @@
 
   &--04::before
     position: absolute
-    content: url('../assets/curso/tema1/img_8.svg')
+    content: url('../assets/curso/tema1/img_8.png')
     top: 30px
     left: 50%
     display: block
@@ -326,7 +352,7 @@
 
   &--05::before
     position: absolute
-    content: url('../assets/curso/tema1/img_9.svg')
+    content: url('../assets/curso/tema1/img_9.png')
     top: 30px
     left: 50%
     display: block
@@ -337,7 +363,7 @@
 
   &--06::before
     position: absolute
-    content: url('../assets/curso/tema1/img_10.svg')
+    content: url('../assets/curso/tema1/img_10.png')
     top: 30px
     left: 50%
     display: block
@@ -348,7 +374,7 @@
 
   &--07::before
     position: absolute
-    content: url('../assets/curso/tema1/img_16.svg')
+    content: url('../assets/curso/tema1/img_16.png')
     top: 30px
     left: 50%
     display: block
@@ -359,7 +385,7 @@
 
   &--08::before
     position: absolute
-    content: url('../assets/curso/tema1/img_17.svg')
+    content: url('../assets/curso/tema1/img_17.png')
     top: 30px
     left: 50%
     display: block
@@ -370,7 +396,7 @@
 
   &--09::before
     position: absolute
-    content: url('../assets/curso/tema1/img_18.svg')
+    content: url('../assets/curso/tema1/img_18.png')
     top: 30px
     left: 50%
     display: block
@@ -381,7 +407,7 @@
 
   &--10::before
     position: absolute
-    content: url('../assets/curso/tema1/img_19.svg')
+    content: url('../assets/curso/tema1/img_19.png')
     top: 30px
     left: 50%
     display: block
@@ -392,7 +418,7 @@
 
   &--11::before
     position: absolute
-    content: url('../assets/curso/tema1/img_20.svg')
+    content: url('../assets/curso/tema1/img_20.png')
     top: 30px
     left: 50%
     display: block
@@ -403,7 +429,7 @@
 
   &--12::before
     position: absolute
-    content: url('../assets/curso/tema1/img_21.svg')
+    content: url('../assets/curso/tema1/img_21.png')
     top: 80px
     left: 50%
     display: block
@@ -413,7 +439,7 @@
     transform: translateX(-50%)
   &--13::before
     position: absolute
-    content: url('../assets/curso/tema2/img_8.svg')
+    content: url('../assets/curso/tema2/img_8.png')
     top: 30px
     left: 50%
     display: block
@@ -423,7 +449,7 @@
     transform: translateX(-50%)
   &--14::before
     position: absolute
-    content: url('../assets/curso/tema2/img_9.svg')
+    content: url('../assets/curso/tema2/img_9.png')
     top: 30px
     left: 50%
     display: block
@@ -433,7 +459,7 @@
     transform: translateX(-50%)
   &--15::before
     position: absolute
-    content: url('../assets/curso/tema2/img_10.svg')
+    content: url('../assets/curso/tema2/img_10.png')
     top: 30px
     left: 50%
     display: block
@@ -443,7 +469,7 @@
     transform: translateX(-50%)
   &--16::before
     position: absolute
-    content: url('../assets/curso/tema2/img_11.svg')
+    content: url('../assets/curso/tema2/img_11.png')
     top: 30px
     left: 50%
     display: block
@@ -453,7 +479,7 @@
     transform: translateX(-50%)
   &--17::before
     position: absolute
-    content: url('../assets/curso/tema2/img_12.svg')
+    content: url('../assets/curso/tema2/img_12.png')
     top: 30px
     left: 50%
     display: block
@@ -528,7 +554,7 @@
     transform: translateX(-50%)
   &--23::before
     position: absolute
-    content: url('../assets/curso/tema4/img_12.svg')
+    content: url('../assets/curso/tema4/img_12.png')
     top: 80px
     left: 50%
     display: block
@@ -538,7 +564,7 @@
     transform: translateX(-50%)
   &--24::before
     position: absolute
-    content: url('../assets/curso/tema4/img_13.svg')
+    content: url('../assets/curso/tema4/img_13.png')
     top: 30px
     left: 50%
     display: block
@@ -548,7 +574,7 @@
     transform: translateX(-50%)
   &--25::before
     position: absolute
-    content: url('../assets/curso/tema4/img_14.svg')
+    content: url('../assets/curso/tema4/img_14.png')
     top: 30px
     left: 50%
     display: block
@@ -558,7 +584,7 @@
     transform: translateX(-50%)
   &--26::before
     position: absolute
-    content: url('../assets/curso/tema4/img_15.svg')
+    content: url('../assets/curso/tema4/img_15.png')
     top: 30px
     left: 50%
     display: block
@@ -1056,7 +1082,7 @@
 
   &--01::before
     position: absolute
-    content: url('../assets/curso/tema1/img_5.svg')
+    content: url('../assets/curso/tema1/img_5.png')
     top: 30px
     left: 50%
     display: block

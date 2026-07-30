@@ -44,7 +44,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
-        .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
+        .tarjeta.color-secundario-20.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
           ul.lista-ul.mb-3
             li
               i.lista-ul__vineta
@@ -116,7 +116,7 @@
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
               p.mb-0.p-4.px-4 La calidad de un espresso no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
-              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-12.col-md-8(
+              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos</I>"
                 :audio="require('@/assets/curso/tema2/img_6.png')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
@@ -173,7 +173,7 @@
       .subtitulo-destacado__fondo
         h2.subtitulo-destacado__texto Registros y bitácora del barista
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+    .bloque-texto-g.color-acento-contenido-5.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img_18.png')})`}"
       )
@@ -227,9 +227,11 @@
             td.text-start Juan Pérez
             td.text-start Hipoclorito 100 ppm, 5 min
             td.text-start Sin incrustaciones
-
-    .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
-      p.mb-0 Además de los registros diarios, se deben conservar los certificados de fumigación (control de plagas) y los manuales de mantenimiento de los equipos. La bitácora debe archivarse en una carpeta de fácil acceso, no en un cajón cerrado. Algunas cafeterías optan por sistemas digitales (hojas de cálculo en la nube) que permiten el acceso remoto a los inspectores.
+  
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-10.mb-3(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
+          p.mb-0 Además de los registros diarios, se deben conservar los certificados de fumigación (control de plagas) y los manuales de mantenimiento de los equipos. La bitácora debe archivarse en una carpeta de fácil acceso, no en un cajón cerrado. Algunas cafeterías optan por sistemas digitales (hojas de cálculo en la nube) que permiten el acceso remoto a los inspectores.
 </template>
 
 <script>

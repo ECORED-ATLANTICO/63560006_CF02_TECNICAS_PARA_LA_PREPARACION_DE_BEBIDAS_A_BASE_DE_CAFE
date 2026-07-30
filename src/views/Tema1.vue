@@ -235,8 +235,8 @@
           img.img-fluid(src="@/assets/curso/tema1/img_13.svg", class="img-fluid d-none d-lg-block", alt="Taza sobre la bandeja de una máquina de espresso")
         p.mb-0(data-aos="flip-left") El molino es un equipo clave en la preparación del espresso, ya que influye directamente en la frescura del café molido y en la precisión de la dosis. Una molienda adecuada favorece extracciones uniformes y bebidas de mejor calidad, mientras que un molino mal ajustado o desgastado afecta el sabor y la consistencia del producto final.
       .col-12.col-lg-9.mb-0
-        .tarjeta.tarjeta--fondo-img-3.p-4.px-5(data-aos="zoom-in-right")
-          SlyderA(tipo="a").tarjeta.tarjeta--blanca.p-3.p-md-4.p-lg-3.p-xl-5.mb-0
+        .tarjeta.tarjeta--fondo-img-3.p-5.p-lg-4.px-lg-5(data-aos="zoom-in-right")
+          SlyderA(tipo="a").tarjeta.tarjeta--blanca.p-5.p-md-3.p-lg-4.p-xl-5.mb-0
             .row.justify-content-center.align-items-center
               .col-12.col-md-10.col-lg-10.mb-0
                 h5.mb-4 Molino dosificador (volumétrico)

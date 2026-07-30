@@ -90,7 +90,7 @@
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
               p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente podcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
-              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-12.col-md-8(
+              TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos </I>"
                 :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
@@ -114,7 +114,7 @@
           img.img-fluid(src="@/assets/curso/tema3/img_12.png" alt="Leche siendo vertida sobre café helado")
       .col-12.col-lg-10.mb-0
         p.mb-3(data-aos="zoom-in-right") El almacenamiento de la leche en la cafetería debe hacerse en un refrigerador exclusivo para lácteos, separado de productos crudos (carnes, huevos) para evitar contaminación cruzada. La leche no debe permanecer a temperatura ambiente más de dos horas (Decreto 616 de 2006, reglamento técnico para leche). Pasado ese tiempo, debe desecharse, no refrigerarse de nuevo.
-        .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-5_1.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
           p.mb-0 Las alternativas vegetales (leche de avena, soja, almendra, coco) están cada vez más presentes en las cafeterías colombianas. Deben cumplir los mismos requisitos de temperatura y fechas. Es importante revisar las etiquetas para identificar alérgenos (soja, frutos secos) y estabilizantes. La leche de avena es actualmente la más popular por su capacidad de generar microespuma sedosa y su sabor neutro. Cada marca de leche vegetal requiere un ajuste en la técnica de cremado: generalmente, temperaturas más bajas (55 - 58 °C) y menos tiempo de estiramiento porque no toleran igual calor que la leche de vaca.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
