@@ -23,12 +23,12 @@ export default {
         '<b> Objetivo:</b> evaluar sus conocimientos sobre maquinaria, mantenimiento, insumos, defectos del grano, higiene, seguridad, protocolo de servicio, alistamiento preoperacional y POES.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            'La máquina de espresso de doble caldera permite extraer el café y vaporizar leche de forma simultánea. ¿Cuál es su principal ventaja?',
+            'La máquina de <em>espresso</em> de doble caldera permite extraer el café y vaporizar leche de forma simultánea. ¿Cuál es su principal ventaja?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -92,14 +92,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Incorrecto. El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (on demand).',
+            'Incorrecto. El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (<em>on demand</em>).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            'El <em>backflush</em> con detergente especial en la máquina de espresso debe realizarse:',
+            'El <em>backflush</em> con detergente especial en la máquina de <em>espresso</em> debe realizarse:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -412,7 +412,7 @@ export default {
         {
           id: 12,
           texto:
-            'En el servicio de espresso, el asa de la taza debe orientarse:',
+            'En el servicio de <em>espresso</em>, el asa de la taza debe orientarse:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -447,7 +447,7 @@ export default {
         {
           id: 13,
           texto:
-            'En el alistamiento preoperacional, el barista debe encender la máquina de espresso con suficiente antelación (unos 30 minutos) para que:',
+            'En el alistamiento preoperacional, el barista debe encender la máquina de <em>espresso</em> con suficiente antelación (unos 30 minutos) para que:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -545,7 +545,7 @@ export default {
         {
           id: 16,
           texto:
-            'La temperatura de extracción del espresso debe mantenerse entre:',
+            'La temperatura de extracción del <em>espresso</em> debe mantenerse entre:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -653,7 +653,8 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Limpiar la máquina de espresso al final del día.',
+              texto:
+                'Limpiar la máquina de <em>espresso</em> al final del día.',
               esCorrecta: false,
             },
             {

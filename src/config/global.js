@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Alistamiento, mantenimiento y servicio del café',
     Description:
-      'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de espresso y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
+      'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de <em>espresso<em> y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -73,7 +73,8 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Procedimientos operativos estandarizados (POES)',
+        titulo:
+          'Procedimientos Operativos Estandarizados de Saneamiento (POES)',
         desarrolloContenidos: true,
       },
     ],
@@ -108,7 +109,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/63560006_CF02_DU.pdf',
+        download: 'downloads/63560006_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -233,7 +234,8 @@ export default {
     {
       referencia:
         'Ministerio de la Protección Social. (2005, 29 de diciembre). <em>Resolución 5109 de 2005, por la cual se establece el reglamento técnico sobre los requisitos de rotulado o etiquetado que deben cumplir los alimentos envasados</em>.',
-      link: '',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=122459',
     },
     {
       referencia:
@@ -248,18 +250,18 @@ export default {
     },
     {
       referencia:
-        'Nuova Simonelli / La Marzocco. (2021). <em>Manual de mantenimiento de máquinas de espresso profesionales</em>.',
+        'Nuova Simonelli / La Marzocco. (2021). <em>Manual de mantenimiento de máquinas de <em>espresso</em> profesionales</em>.',
       link: '',
     },
     {
       referencia:
-        'Rancilio. (2020). <em>Manual de servicio técnico – Máquinas de espresso</em>.',
+        'Rancilio. (2020). <em>Manual de servicio técnico – Máquinas de <em>espresso</em>.',
       link: '',
     },
     {
       referencia:
         'Rao, S. (2021). <em>The Professional Barista’s Handbook</em> (edición en español adaptada por FNC). Scott Rao Publishing.',
-      link: '',
+      link: 'https://es.scribd.com/document/397456183/rao-barista-pdf',
     },
     {
       referencia:

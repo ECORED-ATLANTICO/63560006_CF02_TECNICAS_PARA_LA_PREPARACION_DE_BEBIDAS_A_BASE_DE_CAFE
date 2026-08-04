@@ -30,7 +30,7 @@
               img(src='@/assets/curso/tema5/img_2.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
 
     p.mb-4(data-aos="zoom-in-right") Si el cliente muestra interés, el barista puede ofrecer información sobre el origen del café, las notas sensoriales (“notas de chocolate y frutos rojos”) o el método de extracción, pero sin abrumar con tecnicismos. La agilidad es esencial: el tiempo de preparación no debe exceder 3 - 5 minutos para una bebida sencilla, y en horas pico se debe organizar la comanda por orden de llegada.
-    p.mb-4(data-aos="zoom-in-right") El manejo de quejas debe seguir tres pasos: escuchar sin interrumpir, disculparse aunque no sea la culpa directa (un “lamento que haya tenido esa experiencia”), y proponer una solución (cambiar la bebida, reembolso parcial, obsequio para la próxima visita). Registrar la queja en un libro de incidencias ayuda a identificar problemas recurrentes.
+    p.mb-4(data-aos="zoom-in-right") El manejo de quejas debe seguir tres pasos: escuchar sin interrumpir, disculparse, aunque no sea la culpa directa (un “lamento que haya tenido esa experiencia”), y proponer una solución (cambiar la bebida, reembolso parcial, obsequio para la próxima visita). Registrar la queja en un libro de incidencias ayuda a identificar problemas recurrentes.
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -55,14 +55,12 @@
     
     .row.justify-content-center
       .col-12.col-lg-5.mb-3.mb-lg-0
-        p.mb-5 La bebida debe servirse en una taza precalentada. Las temperaturas de servicio ideales son: espresso 65 - 70 °C en taza (la bebida sale a 90 - 96 °C pero se enfría al contacto con la taza y el ambiente), capuchino y latte 60 - 65 °C, americano 70 - 75 °C, bebidas frías (iced latte, frappe) 4 - 8 °C.
-        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 - 90 ml para espresso; taza de cerámica de 150 - 180 ml para capuchino; taza de cerámica o vaso alto de 200 - 250 ml para latte; taza de cerámica de 180 - 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
+        p.mb-5 La bebida debe servirse en una taza precalentada. Las temperaturas de servicio ideales son:  <em>espresso</em> 65 - 70 °C en taza (la bebida sale a 90 - 96 °C, pero se enfría al contacto con la taza y el ambiente), capuchino y <em>latte</em> 60 - 65 °C, americano 70 - 75 °C, bebidas frías (<em>iced</em> <em>latte</em>, <em>frappe</em>) 4 - 8 °C.
+        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 - 90 ml para espresso; taza de cerámica de 150 - 180 ml para capuchino; taza de cerámica o vaso alto de 200 - 250 ml para <em>latte</em>; taza de cerámica de 180 - 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
       .col-12.col-lg-7
         .tarjeta.color-secundario-20.rounded-4.p-3.p-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+          p.mb-2 El protocolo de servicio en barra o mesa incluye:
           ul.lista-ul.mb-0
-            li
-              i.lista-ul__vineta
-              | El protocolo de servicio en barra o mesa incluye:
             li
               i.lista-ul__vineta
               | Asa de la taza orientada hacia la derecha del cliente.
@@ -90,7 +88,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img_5.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En cafetería informal o take away, el contacto es breve; la eficiencia y la simpatía son clave. Se sirve en vaso de papel con tapa hermética y se entrega con una servilleta. Verificar que la tapa esté bien ajustada para evitar derrames. En cafetería de especialidad o restaurante formal, el barista puede explicar el café y el método (origen, notas sensoriales). Usar vajilla de diseño (porcelana o cerámica artesanal). Presentar la bebida con una pequeña galleta o un vaso de agua mineral para limpiar el paladar. En eventos o catering, mantener una estación de servicio ordenada, con dispensadores de azúcar y endulzantes. Capacitar al personal de apoyo en el manejo de la máquina y en la higiene.
+        p.mb-0 En cafetería informal o <em>take away</em>, el contacto es breve; la eficiencia y la simpatía son clave. Se sirve en vaso de papel con tapa hermética y se entrega con una servilleta. Verificar que la tapa esté bien ajustada para evitar derrames. En cafetería de especialidad o restaurante formal, el barista puede explicar el café y el método (origen, notas sensoriales). Usar vajilla de diseño (porcelana o cerámica artesanal). Presentar la bebida con una pequeña galleta o un vaso de agua mineral para limpiar el paladar. En eventos o <em>catering</em>, mantener una estación de servicio ordenada, con dispensadores de azúcar y endulzantes. Capacitar al personal de apoyo en el manejo de la máquina y en la higiene.
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 2.

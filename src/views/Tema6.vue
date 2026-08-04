@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de abrir la cafetería, el barista debe ejecutar una lista de verificación para asegurar que todos los equipos funcionan correctamente, los insumos están disponibles y las condiciones de higiene son óptimas. Este procedimiento, conocido como mise en place, reduce el riesgo de fallos durante el servicio y mejora la productividad
+        p.mb-0 Antes de abrir la cafetería, el barista debe ejecutar una lista de verificación para asegurar que todos los equipos funcionan correctamente, los insumos están disponibles y las condiciones de higiene son óptimas. Este procedimiento, conocido como <em>mise en place</em>, reduce el riesgo de fallos durante el servicio y mejora la productividad
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -63,7 +63,7 @@
           .flex-grow-1
             p.mb-0
               strong Extracción de prueba:
-              |  preparar un espresso con los parámetros estándar (18 g de café, 36 g de bebida en 25 - 30 s). Medir el tiempo con cronómetro.
+              |  preparar un  <em>espresso</em> con los parámetros estándar (18 g de café, 36 g de bebida en 25 - 30 s). Medir el tiempo con cronómetro.
 
         .d-flex.align-items-start.lista-numerada__item.mb-4(data-aos="zoom-in-right")
           .titulo-principal__numero.titulo-principal__numero-1.titulo-principal__numero--sm.color-acento-botones.flex-shrink-0
@@ -91,19 +91,19 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img.img-fluid(src="@/assets/curso/tema6/img_4.png" alt="Extracción de espresso midiéndose en una jarra de vidrio graduada")
+        img.img-fluid(src="@/assets/curso/tema6/img_4.png" alt="Extracción de  <em>espresso</em> midiéndose en una jarra de vidrio graduada")
       .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
-        p.mb-0 La temperatura de extracción ideal es 92 - 96 °C, medida en la salida del difusor (grupo). Se puede verificar con un termómetro de contacto (menos preciso) o, idealmente, con un termofiltro con termopar (instrumento de calibración profesional). Si la temperatura es baja, se debe ajustar el termostato de la caldera (para máquinas de caldera simple) o revisar el restrictor (para intercambiador de calor). Si es alta, se puede realizar un cooling flush (purgar agua del grupo hasta que la temperatura baje al rango deseado).
+        p.mb-0 La temperatura de extracción ideal es 92 - 96 °C, medida en la salida del difusor (grupo). Se puede verificar con un termómetro de contacto (menos preciso) o, idealmente, con un termofiltro con termopar (instrumento de calibración profesional). Si la temperatura es baja, se debe ajustar el termostato de la caldera (para máquinas de caldera simple) o revisar el restrictor (para intercambiador de calor). Si es alta, se puede realizar un <em>cooling flush</em> (purgar agua del grupo hasta que la temperatura baje al rango deseado).
 
-    p.mb-4(data-aos="zoom-in-right") La presión de la bomba debe ser 9 bares. Prueba de presión con disco ciego: insertar un portafiltro con disco ciego (sin orificios), accionar la bomba (como en un backflush) y leer el manómetro. Si la presión es inferior a 8 bares o superior a 10 bares, contactar al servicio técnico. Nunca se debe ajustar la presión sin conocimientos técnicos, porque puede afectar la seguridad de la máquina.
+    p.mb-4(data-aos="zoom-in-right") La presión de la bomba debe ser 9 bares. Prueba de presión con disco ciego: insertar un portafiltro con disco ciego (sin orificios), accionar la bomba (como en un <em>backflush</em>) y leer el manómetro. Si la presión es inferior a 8 bares o superior a 10 bares, contactar al servicio técnico. Nunca se debe ajustar la presión sin conocimientos técnicos, porque puede afectar la seguridad de la máquina.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
         img.subtitulo-destacado__img(src="@/assets/curso/tema1/img_2.svg")
       .subtitulo-destacado__fondo
-        h2.subtitulo-destacado__texto Mise en place de insumos
+        h2.subtitulo-destacado__texto <em>Mise en place</em> de insumos
 
-    p.mb-4(data-aos="zoom-in-right") La mise en place consiste en disponer todos los insumos necesarios para el servicio antes del inicio:
+    p.mb-4(data-aos="zoom-in-right") La <em>mise en place</em> consiste en disponer todos los insumos necesarios para el servicio antes del inicio:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
@@ -120,7 +120,7 @@
               | Preparar jarras con leche vegetal si se ofrecen, etiquetadas con el nombre y la fecha de apertura.
             li
               i.lista-ul__vineta
-              | Tener disponibles jarabes, saborizantes y toppings en envases dosificadores limpios, con bombas o dosificadores calibrados.
+              | Tener disponibles jarabes, saborizantes y <em>toppings</em> en envases dosificadores limpios, con bombas o dosificadores calibrados.
             li
               i.lista-ul__vineta
               | Verificar que la cafetera de agua (tetera) tenga agua filtrada y caliente (para americanos y té).

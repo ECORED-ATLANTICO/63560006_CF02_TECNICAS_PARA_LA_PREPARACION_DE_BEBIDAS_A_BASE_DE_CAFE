@@ -11,7 +11,7 @@
       .bloque-texto-t__img.mb-0
         img.img-fluid(src="@/assets/curso/tema2/img_1.png" alt="Barista preparando café en la estación de trabajo")
       .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
-        p.mb-0 La falta de limpieza es la causa principal de sabores desagradables (rancios, quemados, metálicos) y de fallos técnicos en los equipos. Un barista profesional no solo sabe extraer un buen espresso, sino que mantiene su estación de trabajo impecable. Este capítulo describe las rutinas diarias, semanales y periódicas de mantenimiento, así como la importancia de documentar cada tarea en registros accesibles a las auditorías sanitarias.
+        p.mb-0 La falta de limpieza es la causa principal de sabores desagradables (rancios, quemados, metálicos) y de fallos técnicos en los equipos. Un barista profesional no solo sabe extraer un buen  <em>espresso</em>, sino que mantiene su estación de trabajo impecable. Este capítulo describe las rutinas diarias, semanales y periódicas de mantenimiento, así como la importancia de documentar cada tarea en registros accesibles a las auditorías sanitarias.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -21,7 +21,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
-        p.mb-4(data-aos="zoom-in-right") Los aceites del café se adhieren a las superficies internas del grupo y del portafiltro. Con el tiempo, al exponerse al oxígeno, estos aceites se oxidan y generan sabores rancios que contaminan las nuevas extracciones. Un cliente puede percibir notas a cartón, aceite rancio o madera, incluso cuando se utiliza café fresco de alta calidad. Además, los residuos de leche en la lanza de vapor son un caldo de cultivo para bacterias como Listeria monocytogenes o Staphylococcus aureus, que pueden causar enfermedades transmitidas por alimentos. La acumulación de restos de café molido en el molino cambia la distribución granulométrica (aumenta los finos) y puede provocar sobrecalentamiento de las fresas, degradando los compuestos volátiles del café.
+        p.mb-4(data-aos="zoom-in-right") Los aceites del café se adhieren a las superficies internas del grupo y del portafiltro. Con el tiempo, al exponerse al oxígeno, estos aceites se oxidan y generan sabores rancios que contaminan las nuevas extracciones. Un cliente puede percibir notas a cartón, aceite rancio o madera, incluso cuando se utiliza café fresco de alta calidad. Además, los residuos de leche en la lanza de vapor son un caldo de cultivo para bacterias como <em>Listeria monocytogenes</em> o <em>Staphylococcus aureus</em>, que pueden causar enfermedades transmitidas por alimentos. La acumulación de restos de café molido en el molino cambia la distribución granulométrica (aumenta los finos) y puede provocar sobrecalentamiento de las fresas, degradando los compuestos volátiles del café.
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
           p.mb-0 La Resolución 2674 de 2013 del Ministerio de Salud y Protección Social, en sus artículos 24 a 32, exige que los establecimientos de alimentos cuenten con programas de limpieza y desinfección documentados y ejecutados. Esto incluye no solo la cocina, sino también la cafetería y sus equipos. El incumplimiento puede derivar en sanciones sanitarias y cierres temporales. Por ello, el mantenimiento no es un lujo, sino una obligación legal y una necesidad técnica.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -107,7 +107,7 @@
               .tarjeta--17.mb-4
               p.mb-3.text-center.px-2
                 strong Paso 5- Limpiar superficies externas:
-                |  se utiliza paño húmedo para limpiar la superficie plana de la máquina de espresso, con un espray de detergente neutro. Limpieza general de la estación de trabajo.
+                |  se utiliza paño húmedo para limpiar la superficie plana de la máquina de  <em>espresso</em>, con un espray de detergente neutro. Limpieza general de la estación de trabajo.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8.col-xl-8
@@ -115,12 +115,13 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
-              p.mb-0.p-4.px-4 La calidad de un espresso no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
+              p.mb-0.p-4.px-4 La calidad de un  <em>espresso</em> no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
-                texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos</I>"
-                :audio="require('@/assets/curso/tema2/img_6.png')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                texto="<em >“El ojo del barista: identificando granos defectuosos </em>"
+                :audio="require('@/assets/curso/podcast/podcast_1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = true")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+             
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -165,7 +166,7 @@
         figure
           img.img-fluid(src="@/assets/curso/tema2/img_17.svg", class="img-fluid d-none d-lg-block")
       .col-12.col-lg-11.mb-3.mb-lg-0
-        p.mb-0(data-aos="zoom-in-right") El reemplazo de las fresas del molino se hace cada 500 1000 kg de café molido (aproximadamente cada 1 - 2 años en una cafetería de volumen medio). Las señales de desgaste son: imposibilidad de alcanzar la fineza requerida para espresso, exceso de finos visibles, sobrecalentamiento del café molido al tacto o aumento del tiempo de molienda para la misma dosis. 
+        p.mb-0(data-aos="zoom-in-right") El reemplazo de las fresas del molino se hace cada 500 - 1000 kg de café molido (aproximadamente cada 1 - 2 años en una cafetería de volumen medio). Las señales de desgaste son: imposibilidad de alcanzar la fineza requerida para  <em>espresso</em>, exceso de finos visibles, sobrecalentamiento del café molido al tacto o aumento del tiempo de molienda para la misma dosis. 
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -239,6 +240,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

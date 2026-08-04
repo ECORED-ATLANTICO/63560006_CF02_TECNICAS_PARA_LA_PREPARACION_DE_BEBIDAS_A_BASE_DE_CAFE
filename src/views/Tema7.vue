@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1 Procedimientos operativos estandarizados (POES)
+      h1 Procedimientos Operativos Estandarizados de Saneamiento (POES)
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -76,7 +76,10 @@
         ul.lista-ul.mb-0
           li
             i.lista-ul__vineta
-            | Limpieza de la lanza de vapor (después de cada uso y al final de la jornada). <em>Backflush</em> diario con agua.
+            | Limpieza de la lanza de vapor (después de cada uso y al final de la jornada). 
+          li
+            i.lista-ul__vineta  
+            | <em>Backflush</em> diario con agua.
           li
             i.lista-ul__vineta
             | <em>Backflush</em> semanal con detergente.

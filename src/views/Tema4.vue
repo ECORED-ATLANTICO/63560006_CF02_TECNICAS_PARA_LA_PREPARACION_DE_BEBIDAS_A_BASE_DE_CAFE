@@ -152,7 +152,7 @@
       .subtitulo-destacado__fondo
         h2.subtitulo-destacado__texto c.	Manejo seguro de equipos
 
-    p.mb-4(data-aos="zoom-in-right") La máquina de espresso opera con agua a 90 - 96 °C y vapor a 120 - 130 °C, además de electricidad. Los riesgos más frecuentes son quemaduras (por salpicaduras o contacto con la caldera), cortes (al desmontar fresas del molino), electrocución (derrames sobre componentes eléctricos) y resbalones (pisos húmedos).
+    p.mb-4(data-aos="zoom-in-right") La máquina de  <em>espresso</em> opera con agua a 90 - 96 °C y vapor a 120 - 130 °C, además de electricidad. Los riesgos más frecuentes son quemaduras (por salpicaduras o contacto con la caldera), cortes (al desmontar fresas del molino), electrocución (derrames sobre componentes eléctricos) y resbalones (pisos húmedos).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.order-2.order-lg-1.mb-0
@@ -232,7 +232,7 @@
           .tarjeta--25.mb-4
           p.mb-3.text-center.px-2
             strong Moscas pequeñas:
-            |  pequeñas moscas (phoridae) volando cerca de la bandeja de goteo o desagües. Su presencia indica acumulación de materia orgánica húmeda y malas prácticas de limpieza.
+            |  pequeñas moscas (<em>phoridae</em>) volando cerca de la bandeja de goteo o desagües. Su presencia indica acumulación de materia orgánica húmeda y malas prácticas de limpieza.
         .tarjeta.tarjeta--fondo-img-9.h-100
           .tarjeta--26.mb-4
           p.mb-3.text-center.px-2

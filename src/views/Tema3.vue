@@ -48,7 +48,7 @@
       .col-12.col-lg-9.mb-3.mb-lg-0
         p.mb-4(data-aos="zoom-in-right") Los defectos físicos del grano pueden provenir de problemas en el cultivo, la cosecha, el beneficio (procesamiento en la finca) o el almacenamiento. El barista debe inspeccionar visualmente el grano, especialmente si se compra a granel o en presentación no sellada al vacío. La Federación Nacional de Cafeteros ha establecido una tabla de defectos que clasifica los granos según su apariencia y el impacto en la taza.
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
-          p.mb-0 Los defectos más comunes en Colombia son: negro total o parcial (grano de color pardo a negro, causado por fermentación prolongada o falta de agua), vinagre o fermentado (color carmelita oscuro, olor a vinagre, por demora entre cosecha y procesamiento), cardenillo (polvillo amarillo o rojizo, hongo por almacenamiento húmedo), inmaduro (verde, pequeño, por recolección anticipada) y picado por broca (pequeños orificios por ataque del insecto Hypothenemus hampei). Cada defecto tiene una consecuencia diferente en la bebida: sabores a podrido, ácido, moho, astringente o sucio.
+          p.mb-0 Los defectos más comunes en Colombia son: negro total o parcial (grano de color pardo a negro, causado por fermentación prolongada o falta de agua), vinagre o fermentado (color carmelita oscuro, olor a vinagre, por demora entre cosecha y procesamiento), cardenillo (polvillo amarillo o rojizo, hongo por almacenamiento húmedo), inmaduro (verde, pequeño, por recolección anticipada) y picado por broca (pequeños orificios por ataque del insecto <em>Hypothenemus hampei</em>). Cada defecto tiene una consecuencia diferente en la bebida: sabores a podrido, ácido, moho, astringente o sucio.
       .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_5.png" alt="Grano de café tostado en primer plano junto a rama con cerezas de café")
@@ -81,7 +81,7 @@
           .tarjeta--22.mb-4
           p.mb-3.text-center.px-2
             strong Picado por broca:
-            |  pequeños orificios circulares en el grano (1-3 por grano), a veces con polvo (excretas). Causas: ataque del insecto Hypothenemus hampei. Consecuencia: deterioro de la taza, sabor sucio o a tierra.
+            |  pequeños orificios circulares en el grano (1-3 por grano), a veces con polvo (excretas). Causas: ataque del insecto <em>Hypothenemus hampei</em>. Consecuencia: deterioro de la taza, sabor sucio o a tierra.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
@@ -89,10 +89,10 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
-              p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente podcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
+              p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente pódcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
-                texto="<I>“Charlas que venden” Episodio: Definir algunos principios básicos </I>"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                texto="<I>“La rutina que salva tu espresso: limpieza diaria </I>"
+                :audio="require('@/assets/curso/podcast/podcast_2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
@@ -127,7 +127,7 @@
     .tarjeta--bg-img.color-terciario-10.rounded-4.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-12.col-lg-7.p-5
-          p.mb-0 El agua para preparar café debe ser potable según el Decreto 1575 de 2007 del Ministerio de la Protección Social. Además de la calidad microbiológica, se deben medir parámetros fisicoquímicos: TDS (sólidos disueltos totales) entre 75 - 250 mg / L, pH 6,5 - 7,5, dureza (como CaCO₃) entre 50 - 175 mg / L. El barista debe asegurar que el sistema de filtración (filtro de sedimentos + carbón activado + ablandador si es necesario) esté en buen estado y con cambios registrados. Si la dureza del agua supera los 150 mg / L, es imprescindible usar un ablandador para evitar incrustaciones en la caldera de la máquina de espresso.
+          p.mb-0 El agua para preparar café debe ser potable según el Decreto 1575 de 2007 del Ministerio de la Protección Social. Además de la calidad microbiológica, se deben medir parámetros fisicoquímicos: TDS (sólidos disueltos totales) entre 75 - 250 mg / L, pH 6,5 - 7,5, dureza (como CaCO₃) entre 50 - 175 mg / L. El barista debe asegurar que el sistema de filtración (filtro de sedimentos + carbón activado + ablandador si es necesario) esté en buen estado y con cambios registrados. Si la dureza del agua supera los 150 mg / L, es imprescindible usar un ablandador para evitar incrustaciones en la caldera de la máquina de  <em>espresso</em>.
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
               img(src='@/assets/curso/tema3/img_14.png', class="img-fluid w-100 h-100 object-fit-cover" alt="Agua en ebullición dentro de una tetera de vidrio").p-0

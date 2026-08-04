@@ -7,7 +7,7 @@
         figure
             img(src="@/assets/curso/sintesis/img_1.png", class="img-fluid d-none d-lg-block")
       .col-lg-11
-        p Este componente formativo permitió fortalecer los conocimientos relacionados con la Maquinaria y equipos para la preparación de café, el Mantenimiento básico y rutinas de limpieza, los Insumos, materias primas y grano de café, la Higiene y seguridad en la estación de trabajo, el Protocolo de servicio y etiqueta profesional, el Alistamiento preoperacional y verificación de equipos y los Procedimientos Operativos Estandarizados (POES). La integración de estos conocimientos proporciona las bases para desarrollar procesos de preparación del café con calidad, seguridad, eficiencia y apego a la normativa vigente.
+        p Este componente formativo permitió fortalecer los conocimientos relacionados con la maquinaria y equipos para la preparación de café, el mantenimiento básico y rutinas de limpieza, los insumos, materias primas y grano de café, la higiene y seguridad en la estación de trabajo, el protocolo de servicio y etiqueta profesional, el alistamiento preoperacional y verificación de equipos y los Procedimientos Operativos Estandarizados (POES). La integración de estos conocimientos proporciona las bases para desarrollar procesos de preparación del café con calidad, seguridad, eficiencia y apego a la normativa vigente.
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
