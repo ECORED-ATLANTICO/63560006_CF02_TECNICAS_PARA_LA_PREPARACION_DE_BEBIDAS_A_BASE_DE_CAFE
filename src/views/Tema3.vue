@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La calidad final de la bebida depende en gran medida de la correcta selección, almacenamiento y manipulación de los insumos. El barista debe conocer los criterios para evaluar el grano de café tostado (frescor, ausencia de defectos), las características de la leche y alternativas vegetales, la calidad del agua y otros complementos. Un insumo en mal estado arruina cualquier técnica de preparación.
+        p.mb-0 Introducción del capítulo: la calidad final de la bebida depende en gran medida de la correcta selección, almacenamiento y manipulación de los insumos. El barista debe conocer los criterios para evaluar el grano de café tostado (frescor, ausencia de defectos), las características de la leche y alternativas vegetales, la calidad del agua y otros complementos. Un insumo en mal estado arruina cualquier técnica de preparación.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono

@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Alistamiento, mantenimiento y servicio del café',
     Description:
-      'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de <em>espresso<em> y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
+      'Este componente formativo desarrolla las competencias para el alistamiento seguro de equipos, utensilios, materias primas e insumos. Aborda el mantenimiento de máquinas de <em>espresso</em> y molinos, la selección y reconocimiento de defectos del grano, la aplicación de normas de higiene, protocolo de servicio y etiqueta profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -306,7 +306,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

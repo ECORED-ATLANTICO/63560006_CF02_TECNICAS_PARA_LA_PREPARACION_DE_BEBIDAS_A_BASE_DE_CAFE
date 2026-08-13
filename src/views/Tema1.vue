@@ -274,7 +274,7 @@
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--09.mb-4
           p.mb-3.text-center.px-2
-            strong Jarra de leche (pitcher):
+            strong Jarra de leche (<em>pitcher</em>):
             |  de acero inoxidable con pico afinado para verter arte latte. Capacidades comunes: 12 oz, 20 oz y 32 oz. Debe enjuagarse inmediatamente después de cada uso y lavarse con detergente al final de la jornada.
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--10.mb-4
@@ -290,7 +290,7 @@
           .tarjeta--12.mb-4
           p.mb-3.text-center.px-2
             strong Vajilla:
-            |  tazas de cerámica en tres tamaños estándar:  <em>espresso</em> (60 - 90 ml), capuchino (150 - 180 ml) y latte (200 - 250 ml). Deben precalentarse sobre la bandeja superior de la máquina de  <em>espresso</em> antes de su uso.
+            |  tazas de cerámica en tres tamaños estándar:  <em>espresso</em> (60 - 90 ml), capuchino (150 - 180 ml) y <em>latte</em> (200 - 250 ml). Deben precalentarse sobre la bandeja superior de la máquina de  <em>espresso</em> antes de su uso.
 
 </template>
 

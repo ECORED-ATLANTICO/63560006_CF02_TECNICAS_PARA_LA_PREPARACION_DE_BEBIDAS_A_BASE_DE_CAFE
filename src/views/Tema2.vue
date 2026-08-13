@@ -118,7 +118,7 @@
               p.mb-0.p-4.px-4 La calidad de un  <em>espresso</em> no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<em >“El ojo del barista: identificando granos defectuosos </em>"
-                :audio="require('@/assets/curso/podcast/podcast_1.mp3')"
+                :audio="require('../assets/curso/podcast/podcast_2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = true")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
              
@@ -234,7 +234,6 @@
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
           p.mb-0 Además de los registros diarios, se deben conservar los certificados de fumigación (control de plagas) y los manuales de mantenimiento de los equipos. La bitácora debe archivarse en una carpeta de fácil acceso, no en un cajón cerrado. Algunas cafeterías optan por sistemas digitales (hojas de cálculo en la nube) que permiten el acceso remoto a los inspectores.
 </template>
-
 <script>
 export default {
   name: 'Tema2',
@@ -252,5 +251,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

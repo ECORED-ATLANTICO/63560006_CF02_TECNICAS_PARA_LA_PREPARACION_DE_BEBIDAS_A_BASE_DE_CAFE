@@ -72,10 +72,10 @@
               | Acompañar con azúcar, endulzante o galleta (preguntar siempre, no asumir que el cliente quiere acompañamiento).
             li
               i.lista-ul__vineta
-              | Si se sirven dos bebidas simultáneamente, colocar primero la más caliente (americano) y luego la más fría (latte helado) para evitar que se enfríe la primera.
+              | Si se sirven dos bebidas simultáneamente, colocar primero la más caliente (americano) y luego la más fría (<em>latte</em> helado) para evitar que se enfríe la primera.
             li
               i.lista-ul__vineta
-              | En el caso de café filtrado (pour over), presentar la jarra con tapa (para mantener la temperatura) y una taza vacía, permitiendo que el cliente se sirva.
+              | En el caso de café filtrado (<em>pour over</em>), presentar la jarra con tapa (para mantener la temperatura) y una taza vacía, permitiendo que el cliente se sirva.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -92,7 +92,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 2.
-      |    Etiqueta en la mesa (servicio a clientes sentados).
+      |    Etiqueta en la mesa (servicio a clientes sentados)
     figure(data-aos="flip-left").mb-5
       img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-none d-lg-block", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3
       img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid d-block d-lg-none", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3

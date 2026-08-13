@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de abrir la cafetería, el barista debe ejecutar una lista de verificación para asegurar que todos los equipos funcionan correctamente, los insumos están disponibles y las condiciones de higiene son óptimas. Este procedimiento, conocido como <em>mise en place</em>, reduce el riesgo de fallos durante el servicio y mejora la productividad
+        p.mb-0 Antes de abrir la cafetería, el barista debe ejecutar una lista de verificación para asegurar que todos los equipos funcionan correctamente, los insumos están disponibles y las condiciones de higiene son óptimas. Este procedimiento, conocido como <em>mise en place</em>, reduce el riesgo de fallos durante el servicio y mejora la productividad.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
