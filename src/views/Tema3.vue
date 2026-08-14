@@ -93,7 +93,7 @@
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<I>“La rutina que salva tu espresso: limpieza diaria </I>"
                 :audio="require('@/assets/curso/podcast/podcast_2.mp3')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                @audio-hover="mostrarIndicadorTarjetaAudio = true")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
