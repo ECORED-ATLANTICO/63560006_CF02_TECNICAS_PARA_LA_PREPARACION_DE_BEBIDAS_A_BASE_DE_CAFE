@@ -275,7 +275,7 @@
           .tarjeta--09.mb-4
           p.mb-3.text-center.px-2
             strong Jarra de leche (<em>pitcher</em>):
-            |  de acero inoxidable con pico afinado para verter arte latte. Capacidades comunes: 12 oz, 20 oz y 32 oz. Debe enjuagarse inmediatamente después de cada uso y lavarse con detergente al final de la jornada.
+            |  de acero inoxidable con pico afinado para verter arte <em>latte</em>. Capacidades comunes: 12 oz, 20 oz y 32 oz. Debe enjuagarse inmediatamente después de cada uso y lavarse con detergente al final de la jornada.
         .tarjeta.tarjeta--fondo-img-2.h-100
           .tarjeta--10.mb-4
           p.mb-3.text-center.px-2

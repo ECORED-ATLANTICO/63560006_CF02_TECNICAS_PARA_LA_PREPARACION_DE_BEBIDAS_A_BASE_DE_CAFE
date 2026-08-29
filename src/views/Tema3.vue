@@ -89,7 +89,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
-              p.mb-0.p-4.px-4 Lo invitamos a escuchar el siguiente pódcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
+              p.mb-0.p-4.px-4 Lo invitamos a revisar el siguiente pódcast, donde conocerá cómo identificar los principales defectos físicos del grano de café y comprenderá su impacto en la calidad de la bebida. A través de ejemplos prácticos, reconocerá la importancia de una adecuada inspección del café antes de su preparación:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<I>“La rutina que salva tu espresso: limpieza diaria </I>"
                 :audio="require('@/assets/curso/podcast/podcast_2.mp3')"

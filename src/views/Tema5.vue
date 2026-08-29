@@ -56,7 +56,7 @@
     .row.justify-content-center
       .col-12.col-lg-5.mb-3.mb-lg-0
         p.mb-5 La bebida debe servirse en una taza precalentada. Las temperaturas de servicio ideales son:  <em>espresso</em> 65 - 70 °C en taza (la bebida sale a 90 - 96 °C, pero se enfría al contacto con la taza y el ambiente), capuchino y <em>latte</em> 60 - 65 °C, americano 70 - 75 °C, bebidas frías (<em>iced</em> <em>latte</em>, <em>frappe</em>) 4 - 8 °C.
-        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 - 90 ml para espresso; taza de cerámica de 150 - 180 ml para capuchino; taza de cerámica o vaso alto de 200 - 250 ml para <em>latte</em>; taza de cerámica de 180 - 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
+        p.mb-0 La vajilla recomendada: tacita de cerámica de 60 - 90 ml para <em>espresso</em>; taza de cerámica de 150 - 180 ml para capuchino; taza de cerámica o vaso alto de 200 - 250 ml para <em>latte</em>; taza de cerámica de 180 - 240 ml para americano; vaso alto de vidrio o plástico con hielo para bebidas frías.
       .col-12.col-lg-7
         .tarjeta.color-secundario-20.rounded-4.p-3.p-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
           p.mb-2 El protocolo de servicio en barra o mesa incluye:

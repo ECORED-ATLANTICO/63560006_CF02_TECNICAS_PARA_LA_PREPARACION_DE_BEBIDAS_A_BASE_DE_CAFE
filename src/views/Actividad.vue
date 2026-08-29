@@ -56,7 +56,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La doble caldera tiene circuitos independientes para extracción y vapor, permitiendo trabajar en paralelo sin pérdida de temperatura, lo que la hace ideal para cafeterías de alta demanda.',
+            'La doble caldera tiene circuitos independientes para extracción y vapor, permitiendo trabajar en paralelo sin pérdida de temperatura, lo que la hace ideal para cafeterías de alta demanda.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -92,7 +92,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Incorrecto. El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (<em>on demand</em>).',
+            'El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (<em>on demand</em>).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -126,7 +126,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El <em>backflush</em> con agua se hace diariamente; el <em>backflush</em> con detergente se realiza semanalmente para no dañar juntas ni dejar residuos de detergente.',
+            'El backflush con agua se hace diariamente; el <em>backflush</em> con detergente se realiza semanalmente para no dañar juntas ni dejar residuos de detergente.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Una junta deteriorada provoca pérdida de presión y extracciones inconsistentes. Su reemplazo periódico (aproximadamente cada 6 meses) es parte del mantenimiento preventivo.',
+            'Una junta deteriorada provoca pérdida de presión y extracciones inconsistentes. Su reemplazo periódico (aproximadamente cada 6 meses) es parte del mantenimiento preventivo.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -196,7 +196,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El cardenillo es un defecto fúngico que se manifiesta con polvillo amarillo o rojizo y sabores terrosos, causado por almacenamiento en condiciones de humedad.',
+            'El cardenillo es un defecto fúngico que se manifiesta con polvillo amarillo o rojizo y sabores terrosos, causado por almacenamiento en condiciones de humedad.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -227,7 +227,7 @@ export default {
             { id: 'd', texto: '0 °C (congelada).', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. La leche debe recibirse a ≤ 4 °C y no debe estar a temperatura ambiente más de 2 horas, según el Decreto 616 de 2006 (Reglamento Técnico para leche).',
+            'La leche debe recibirse a ≤ 4 °C y no debe estar a temperatura ambiente más de 2 horas, según el Decreto 616 de 2006 (Reglamento Técnico para leche).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -264,7 +264,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Esos son los parámetros de calidad del agua recomendados por la SCA para una extracción óptima del café.',
+            'Esos son los parámetros de calidad del agua recomendados por la SCA para una extracción óptima del café.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -299,7 +299,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Las joyas están prohibidas durante la manipulación de alimentos porque pueden caer o acumular microorganismos, incluso con guantes.',
+            'Las joyas están prohibidas durante la manipulación de alimentos porque pueden caer o acumular microorganismos, incluso con guantes.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -333,7 +333,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Esa asignación evita la contaminación cruzada entre lácteos, alternativas vegetales y café, reduciendo el riesgo de alergias y contaminación microbiana.',
+            'Esa asignación evita la contaminación cruzada entre lácteos, alternativas vegetales y café, reduciendo el riesgo de alergias y contaminación microbiana.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -368,7 +368,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El molino debe desconectarse de la corriente antes de cualquier manipulación de las fresas por seguridad eléctrica y mecánica.',
+            'El molino debe desconectarse de la corriente antes de cualquier manipulación de las fresas por seguridad eléctrica y mecánica.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -405,7 +405,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La regla es: 15 minutos desde la molienda, 15 días desde el tostado, 15 meses desde la cosecha (café verde bien almacenado).',
+            'La regla es: 15 minutos desde la molienda, 15 días desde el tostado, 15 meses desde la cosecha (café verde bien almacenado).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -440,7 +440,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El asa debe orientarse hacia la derecha del cliente (si es diestro) para facilitar el manejo y evitar derrames.',
+            'El asa debe orientarse hacia la derecha del cliente (si es diestro) para facilitar el manejo y evitar derrames.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -474,7 +474,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El precalentamiento estabiliza la temperatura y garantiza una extracción consistente, alcanzando la presión de caldera (1 - 1,2 bares).',
+            'El precalentamiento estabiliza la temperatura y garantiza una extracción consistente, alcanzando la presión de caldera (1 - 1,2 bares).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -503,7 +503,7 @@ export default {
             { id: 'd', texto: 'Una vez al mes.', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. La calibración debe hacerse a diario porque la humedad ambiental cambia la dureza del grano y afecta el tiempo de extracción.',
+            'La calibración debe hacerse a diario porque la humedad ambiental cambia la dureza del grano y afecta el tiempo de extracción.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -538,7 +538,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Esa es la estructura mínima que garantiza la estandarización y la trazabilidad de las operaciones de limpieza y mantenimiento.',
+            'Esa es la estructura mínima que garantiza la estandarización y la trazabilidad de las operaciones de limpieza y mantenimiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -572,7 +572,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La temperatura ideal es 92 - 96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
+            'La temperatura ideal es 92 - 96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -607,7 +607,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. PEPS asegura la rotación de inventarios y que el café no supere los 30 días post-tostión, preservando su frescura.',
+            'PEPS asegura la rotación de inventarios y que el café no supere los 30 días post-tostión, preservando su frescura.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -641,7 +641,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La higiene de manos es obligatoria siempre, independientemente de si el cliente ve o no la preparación, según la Resolución 2674 de 2013.',
+            'La higiene de manos es obligatoria siempre, independientemente de si el cliente ve o no la preparación, según la Resolución 2674 de 2013.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -675,7 +675,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La <em>mise en place</em> reduce tiempos y evita la exposición innecesaria de insumos a temperatura ambiente, asegurando frescura y eficiencia.',
+            'La <em>mise en place</em> reduce tiempos y evita la exposición innecesaria de insumos a temperatura ambiente, asegurando frescura y eficiencia.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -692,7 +692,7 @@ export default {
             { id: 'd', texto: '6 meses.', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Incorrecto. La resolución 2674 exige conservar los registros de limpieza y desinfección por un mínimo de dos años.',
+            'La resolución 2674 exige conservar los registros de limpieza y desinfección por un mínimo de dos años.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

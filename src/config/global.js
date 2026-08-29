@@ -190,7 +190,7 @@ export default {
     {
       termino: 'POES',
       significado:
-        'Procedimiento Operativo Estandarizado de Saneamiento: documento que detalla paso a paso una tarea de limpieza, desinfección o mantenimiento.',
+        'Procedimiento operativo estandarizado de saneamiento: documento que detalla paso a paso una tarea de limpieza, desinfección o mantenimiento.',
     },
     {
       termino: 'Resolución 2674 de 2013',

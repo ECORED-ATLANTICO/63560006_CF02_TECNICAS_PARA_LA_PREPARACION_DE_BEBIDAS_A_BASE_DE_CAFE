@@ -130,7 +130,7 @@
         h2.subtitulo-destacado__texto Limpieza semanal
 
     p.mb-4(data-aos="zoom-in-right") Una vez por semana (o cada 200 - 300 cafés), se requieren procedimientos más profundos que no pueden hacerse diariamente por el tiempo que consumen.
-    p.mb-4(data-aos="zoom-in-right") El <em>backflush</em> químico es el más importante. Se inserta el disco ciego, se agregan 1 - 2 g de detergente especial (Cafiza, Puly Caff, Urnex) directamente en la cesta o sobre el disco. Se acciona la bomba durante 10 s, se espera 10 s, y se repite 5 - 6 veces. Luego se retira el portafiltro, se enjuaga y se realizan 3 ciclos de backflush solo con agua para eliminar residuos de detergente. Nunca se debe usar jabón de cocina o cloro; estos productos no están formulados para equipos de café y pueden dañar las juntas y dejar residuos tóxicos.
+    p.mb-4(data-aos="zoom-in-right") El <em>backflush</em> químico es el más importante. Se inserta el disco ciego, se agregan 1 - 2 g de detergente especial (Cafiza, Puly Caff, Urnex) directamente en la cesta o sobre el disco. Se acciona la bomba durante 10 s, se espera 10 s, y se repite 5 - 6 veces. Luego se retira el portafiltro, se enjuaga y se realizan 3 ciclos de <em>backflush</em> solo con agua para eliminar residuos de detergente. Nunca se debe usar jabón de cocina o cloro; estos productos no están formulados para equipos de café y pueden dañar las juntas y dejar residuos tóxicos.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
