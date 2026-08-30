@@ -92,7 +92,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (<em>on demand</em>).',
+            'El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (on demand).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -126,7 +126,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'El backflush con agua se hace diariamente; el <em>backflush</em> con detergente se realiza semanalmente para no dañar juntas ni dejar residuos de detergente.',
+            'El backflush con agua se hace diariamente; el backflush con detergente se realiza semanalmente para no dañar juntas ni dejar residuos de detergente.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -675,7 +675,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'La <em>mise en place</em> reduce tiempos y evita la exposición innecesaria de insumos a temperatura ambiente, asegurando frescura y eficiencia.',
+            'La mise en place reduce tiempos y evita la exposición innecesaria de insumos a temperatura ambiente, asegurando frescura y eficiencia.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
