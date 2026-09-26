@@ -109,7 +109,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/63560006_CF02_DU.zip',
+        download: 'downloads/63560006_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -201,61 +201,61 @@ export default {
   referencias: [
     {
       referencia:
-        'Cenicafé. (2018). <em>Defectos del grano de café y su incidencia en la calidad de la bebida</em>. Federación Nacional de Cafeteros.',
+        'Cenicafé. (2018). Defectos del grano de café y su incidencia en la calidad de la bebida<. Federación Nacional de Cafeteros.',
       link: '',
     },
     {
       referencia:
-        'Federación Nacional de Cafeteros de Colombia. (2017). <em>Manual del barista colombiano: técnicas y protocolo</em>.',
+        'Federación Nacional de Cafeteros de Colombia. (2017). Manual del barista colombiano: técnicas y protocolo.',
       link: '',
     },
     {
       referencia:
-        'Federación Nacional de Cafeteros de Colombia. (2020). <em>Tabla de defectos del café</em>. Federación Nacional de Cafeteros.',
+        'Federación Nacional de Cafeteros de Colombia. (2020). Tabla de defectos del café. Federación Nacional de Cafeteros.',
       link: '',
     },
     {
       referencia:
-        'Federación Nacional de Cafeteros de Colombia. (s. f.). <em>¿Quiénes somos?</em> [Página web]. Recuperado el 4 de mayo de 2026.',
+        'Federación Nacional de Cafeteros de Colombia. (s. f.). ¿Quiénes somos? [Página web]. Recuperado el 4 de mayo de 2026.',
       link: 'https://federaciondecafeteros.org',
     },
     {
       referencia:
-        'Ministerio de la Protección Social. (2006, 28 de febrero). <em>Decreto 616 de 2006, por el cual se expide el Reglamento Técnico sobre los requisitos que debe cumplir la leche para el consumo humano</em>. Diario Oficial No. 46.177.',
+        'Ministerio de la Protección Social. (2006, 28 de febrero). Decreto 616 de 2006, por el cual se expide el Reglamento Técnico sobre los requisitos que debe cumplir la leche para el consumo humano. Diario Oficial No. 46.177.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=21980',
     },
     {
       referencia:
-        'Ministerio de la Protección Social. (2007, 9 de mayo). <em>Decreto 1575 de 2007, por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano</em>. Diario Oficial No. 46.684.',
+        'Ministerio de la Protección Social. (2007, 9 de mayo). Decreto 1575 de 2007, por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano. Diario Oficial No. 46.684.',
       link:
         'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=30007',
     },
     {
       referencia:
-        'Ministerio de la Protección Social. (2005, 29 de diciembre). <em>Resolución 5109 de 2005, por la cual se establece el reglamento técnico sobre los requisitos de rotulado o etiquetado que deben cumplir los alimentos envasados</em>.',
+        'Ministerio de la Protección Social. (2005, 29 de diciembre). Resolución 5109 de 2005, por la cual se establece el reglamento técnico sobre los requisitos de rotulado o etiquetado que deben cumplir los alimentos envasados.',
       link:
         'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=122459',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2013, 22 de julio). <em>Resolución 2674 de 2013, por la cual se reglamenta el artículo 126 del Decreto Ley 019 de 2012 y se dictan otras disposiciones</em>.',
+        'Ministerio de Salud y Protección Social. (2013, 22 de julio). Resolución 2674 de 2013, por la cual se reglamenta el artículo 126 del Decreto Ley 019 de 2012 y se dictan otras disposiciones.',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-2674-de-2013.pdf',
     },
     {
       referencia:
-        'Montilla, J., Arcila, J., Aristizábal, M., et al. (2008). <em>Caracterización de algunas propiedades físicas y factores de conversión del café durante el proceso de beneficio húmedo tradicional</em>. <em>Cenicafé</em>, 59(2), 120–142.',
+        'Montilla, J., Arcila, J., Aristizábal, M., et al. (2008). Caracterización de algunas propiedades físicas y factores de conversión del café durante el proceso de beneficio húmedo tradicional. <em>Cenicafé</em>, 59(2), 120–142.',
       link: 'https://biblioteca.cenicafe.org/handle/10778/206',
     },
     {
       referencia:
-        'Nuova Simonelli / La Marzocco. (2021). <em>Manual de mantenimiento de máquinas de <em>espresso</em> profesionales</em>.',
+        'Nuova Simonelli / La Marzocco. (2021). Manual de mantenimiento de máquinas de <em>espresso</em> profesionales.',
       link: '',
     },
     {
       referencia:
-        'Rancilio. (2020). <em>Manual de servicio técnico – Máquinas de <em>espresso</em>.',
+        'Rancilio. (2020). Manual de servicio técnico – Máquinas de <em>espresso</em>.',
       link: '',
     },
     {
