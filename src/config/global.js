@@ -265,9 +265,9 @@ export default {
     },
     {
       referencia:
-        'Specialty Coffee Association. (2022). <em>SCA Water Quality Handbook</em>. SCA.',
+        'Specialty Coffee Association. (2018). The 2018 SCA Water Quality Handbook.',
       link:
-        'https://panama.worldofcoffee.org/?gad_source=1&gad_campaignid=24231374128&gbraid=0AAAABEZJfwKXB3FB7y-7Wg5Yh959aEg5t&gclid=CjwKCAjwoOjVBhArEiwAUwDakwYZ-XLFwNmxi00zLopbOJUDndM26iUKqHMw659n15IPS1m42qshrBoCvM8QAvD_BwE',
+        'https://sca.coffee/store/p/the-2018-sca-water-quality-handbook-l57sj',
     },
   ],
   creditos: [
