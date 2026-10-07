@@ -41,7 +41,7 @@
               | Mantener uñas cortas, sin esmalte, y sin joyas (anillos, pulseras, relojes) durante la manipulación de alimentos, porque pueden caer o acumular microorganismos.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema4/img_3.png" alt="Barista con delantal sonriendo junto a tazas de café")
+          img.img-fluid(src="@/assets/curso/tema4/img_3.png" alt="")
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -92,7 +92,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema4/img_7.png" alt="Filtro de café con café molido y cuchara")
+          img.img-fluid(src="@/assets/curso/tema4/img_7.png" alt="")
       .col-12.col-lg-9.mb-0
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 3.
@@ -176,14 +176,14 @@
               | Colocar tapetes antideslizantes en las zonas de preparación. Usar calzado cerrado con suela de goma.
       .col-12.col-md-8.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema4/img_8.png" alt="Manos con guantes desinfectando junto a rama de café")
+          img.img-fluid(src="@/assets/curso/tema4/img_8.png" alt="")
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 1.
       |    Procedimiento seguro para cambiar las fresas del molino
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-none d-lg-block", alt="Representa el procedimiento para cambiar las fresas de un molino de café en siete pasos consecutivos. Cada paso está representado por un círculo blanco conectado por una línea curva de color morado y un recuadro horizontal con un degradado de color. Los pasos son: 1) Desconectar el molino de la corriente eléctrica. 2) Retirar la tolva y el seguro de las fresas según el manual del fabricante. 3) Usar guantes de cuero para extraer las fresas. 4) Limpiar la cámara con una aspiradora, evitando el uso de aire comprimido y sin introducir los dedos en la cámara. 5) Instalar las nuevas fresas siguiendo las marcas de alineación del fabricante. 6) Ajustar el punto cero y retroceder uno o dos puntos de molienda. 7) Realizar una prueba con café y desechar las primeras dosis antes de iniciar la operación.").mb-3
-      img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-block d-lg-none", alt="Representa el procedimiento para cambiar las fresas de un molino de café en siete pasos consecutivos. Cada paso está representado por un círculo blanco conectado por una línea curva de color morado y un recuadro horizontal con un degradado de color. Los pasos son: 1) Desconectar el molino de la corriente eléctrica. 2) Retirar la tolva y el seguro de las fresas según el manual del fabricante. 3) Usar guantes de cuero para extraer las fresas. 4) Limpiar la cámara con una aspiradora, evitando el uso de aire comprimido y sin introducir los dedos en la cámara. 5) Instalar las nuevas fresas siguiendo las marcas de alineación del fabricante. 6) Ajustar el punto cero y retroceder uno o dos puntos de molienda. 7) Realizar una prueba con café y desechar las primeras dosis antes de iniciar la operación.").mb-3
+      img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-none d-lg-block", alt="Procedimiento en siete pasos para cambiar las fresas de un molino de café: desconectar, retirar, limpiar, instalar, ajustar y probar.").mb-3
+      img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-block d-lg-none", alt="Procedimiento en siete pasos para cambiar las fresas de un molino de café: desconectar, retirar, limpiar, instalar, ajustar y probar.").mb-3
       figcaption Nota. SENA, (2026). 
 
     .subtitulo-destacado.subtitulo-destacado__color-terciario-5.mb-4(data-aos="flip-left")
@@ -212,7 +212,7 @@
               | Almacenar los residuos en bolsas cerradas y depositarlas en contenedores exteriores con tapa hermética, diariamente.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema4/img_11.png" alt="Filtros de café comparando molienda clara y oscura")
+          img.img-fluid(src="@/assets/curso/tema4/img_11.png" alt="")
 
     h5.mb-4(data-aos="zoom-in-right") Señales de infestación de plagas:
 

@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema7/img_1.png" alt="Tazas y jarras de cerámica organizadas junto a granos de café")
+          img.img-fluid(src="@/assets/curso/tema7/img_1.png" alt="")
       .col-12.col-lg-9.mb-0
         .tarjeta.tarjeta--fondo-img-10.h-100.p-4.px-5.mb-0(data-aos="zoom-in-right")
           p.mb-0 Los POES (Procedimientos Operativos Estandarizados de Saneamiento) son documentos que describen paso a paso las tareas de limpieza, desinfección y mantenimiento en una industria de alimentos. En la cafetería, los POES garantizan la consistencia y la trazabilidad de las operaciones. Este capítulo enseña a estructurar POES sencillos y a utilizarlos en el día a día.
@@ -56,7 +56,7 @@
               |  número de formato donde se documenta la ejecución.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema7/img_3.png" alt="Calendario marcando una fecha con un lápiz")
+          img.img-fluid(src="@/assets/curso/tema7/img_3.png" alt="")
 
     p.mb-4(data-aos="zoom-in-right") Los POES deben estar visibles en la estación de trabajo (impresos y plastificados) y ser conocidos por todo el personal. Cada nuevo empleado debe ser capacitado en los POES antes de comenzar a manipular equipos.
 
@@ -124,7 +124,7 @@
               | Registrar la información en un formato de recepción (fecha, proveedor, lote, temperatura, firma del responsable). Este registro es obligatorio según la Resolución 2674.
       .col-12.col-md-10.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema7/img_5.png" alt="Persona diligenciando un formato digital de registro en un computador")
+          img.img-fluid(src="@/assets/curso/tema7/img_5.png" alt="")
 
     p.mb-4(data-aos="zoom-in-right") La siguiente tabla resume los criterios de aceptación para los insumos más comunes. Es útil tener una copia plastificada cerca del área de recepción.
 
@@ -201,7 +201,7 @@
               |  averías, accidentes, quejas de clientes, no conformidades.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema7/img_6.png" alt="Barista sonriendo mientras diligencia un formato en una tabla portapapeles")
+          img.img-fluid(src="@/assets/curso/tema7/img_6.png" alt="")
 
     p.mb-4(data-aos="zoom-in-right") Los registros deben archivarse por al menos dos años (exigencia de la Resolución 2674). Se recomienda digitalizarlos (por ejemplo, en una hoja de cálculo en la nube) para facilitar el acceso y la auditoría. Cada registro debe ser firmado por el responsable y visado por el supervisor.
     p.mb-0(data-aos="zoom-in-right") El flujo de trabajo con POES es un ciclo de mejora continua: planificar la tarea, escribir el procedimiento, capacitar al personal, ejecutar y registrar, y finalmente revisar y mejorar el POES en función de la experiencia. Este ciclo asegura que los procedimientos no se vuelvan obsoletos y se adapten a nuevos equipos o insumos.

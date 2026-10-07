@@ -58,7 +58,7 @@ export default {
           mensaje_correcto:
             'La doble caldera tiene circuitos independientes para extracción y vapor, permitiendo trabajar en paralelo sin pérdida de temperatura, lo que la hace ideal para cafeterías de alta demanda.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
@@ -94,7 +94,7 @@ export default {
           mensaje_correcto:
             'El molino dosificador almacena café molido expuesto al aire, perdiendo aromas. El estándar profesional es el molino a demanda (on demand).',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
@@ -128,7 +128,7 @@ export default {
           mensaje_correcto:
             'El backflush con agua se hace diariamente; el backflush con detergente se realiza semanalmente para no dañar juntas ni dejar residuos de detergente.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
@@ -161,7 +161,7 @@ export default {
           mensaje_correcto:
             'Una junta deteriorada provoca pérdida de presión y extracciones inconsistentes. Su reemplazo periódico (aproximadamente cada 6 meses) es parte del mantenimiento preventivo.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
@@ -198,7 +198,7 @@ export default {
           mensaje_correcto:
             'El cardenillo es un defecto fúngico que se manifiesta con polvillo amarillo o rojizo y sabores terrosos, causado por almacenamiento en condiciones de humedad.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
@@ -209,13 +209,13 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '15 - 20 °C (temperatura ambiente).',
+              texto: '15-20 °C (temperatura ambiente).',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                '8 - 10 °C, y puede permanecer hasta 4 horas fuera del refrigerador.',
+                '8-10 °C, y puede permanecer hasta 4 horas fuera del refrigerador.',
               esCorrecta: false,
             },
             {
@@ -229,7 +229,7 @@ export default {
           mensaje_correcto:
             'La leche debe recibirse a ≤ 4 °C y no debe estar a temperatura ambiente más de 2 horas, según el Decreto 616 de 2006 (Reglamento Técnico para leche).',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
@@ -241,32 +241,32 @@ export default {
             {
               id: 'a',
               texto:
-                'TDS entre 50 - 100 mg / L, pH entre 5,5 - 6,5 y dureza entre 20 - 50 mg / L.',
+                'TDS entre 50-100 mg / L, pH entre 5,5-6,5 y dureza entre 20-50 mg / L.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'TDS entre 75 - 250 mg / L, pH entre 6,5 - 7,5 y dureza entre 50 - 175 mg / L.',
+                'TDS entre 75-250 mg / L, pH entre 6,5-7,5 y dureza entre 50-175 mg / L.',
               esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'TDS entre 300 - 500 mg / L, pH entre 7,5 - 8,5 y dureza entre 200 - 300 mg / L.',
+                'TDS entre 300-500 mg / L, pH entre 7,5-8,5 y dureza entre 200-300 mg / L.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'TDS entre 10 - 50 mg / L, pH entre 4,5 - 5,5 y dureza entre 5-20 mg/L.',
+                'TDS entre 10-50 mg / L, pH entre 4,5-5,5 y dureza entre 5-20 mg/L.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
             'Esos son los parámetros de calidad del agua recomendados por la SCA para una extracción óptima del café.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
@@ -301,7 +301,7 @@ export default {
           mensaje_correcto:
             'Las joyas están prohibidas durante la manipulación de alimentos porque pueden caer o acumular microorganismos, incluso con guantes.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
@@ -335,7 +335,7 @@ export default {
           mensaje_correcto:
             'Esa asignación evita la contaminación cruzada entre lácteos, alternativas vegetales y café, reduciendo el riesgo de alergias y contaminación microbiana.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
@@ -370,7 +370,7 @@ export default {
           mensaje_correcto:
             'El molino debe desconectarse de la corriente antes de cualquier manipulación de las fresas por seguridad eléctrica y mecánica.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
@@ -407,7 +407,7 @@ export default {
           mensaje_correcto:
             'La regla es: 15 minutos desde la molienda, 15 días desde el tostado, 15 meses desde la cosecha (café verde bien almacenado).',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
@@ -442,7 +442,7 @@ export default {
           mensaje_correcto:
             'El asa debe orientarse hacia la derecha del cliente (si es diestro) para facilitar el manejo y evitar derrames.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
@@ -464,7 +464,7 @@ export default {
             {
               id: 'c',
               texto:
-                'La máquina alcance la presión de caldera (1 - 1,2 bares) y la temperatura de extracción estable.',
+                'La máquina alcance la presión de caldera (1-1,2 bares) y la temperatura de extracción estable.',
               esCorrecta: true,
             },
             {
@@ -474,9 +474,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'El precalentamiento estabiliza la temperatura y garantiza una extracción consistente, alcanzando la presión de caldera (1 - 1,2 bares).',
+            'El precalentamiento estabiliza la temperatura y garantiza una extracción consistente, alcanzando la presión de caldera (1-1,2 bares).',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
@@ -505,7 +505,7 @@ export default {
           mensaje_correcto:
             'La calibración debe hacerse a diario porque la humedad ambiental cambia la dureza del grano y afecta el tiempo de extracción.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
@@ -540,7 +540,7 @@ export default {
           mensaje_correcto:
             'Esa es la estructura mínima que garantiza la estandarización y la trazabilidad de las operaciones de limpieza y mantenimiento.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
@@ -551,30 +551,30 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '85 - 88 °C para evitar la quemadura de los aceites.',
+              texto: '85-88 °C para evitar la quemadura de los aceites.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                '92 - 96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
+                '92-96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '75 - 80 °C para preservar los aromas delicados.',
+              texto: '75-80 °C para preservar los aromas delicados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '100 - 105 °C para garantizar una extracción completa.',
+              texto: '100-105 °C para garantizar una extracción completa.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La temperatura ideal es 92 - 96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
+            'La temperatura ideal es 92-96 °C; temperaturas más bajas producen subextracción y sabores ácidos.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
@@ -609,7 +609,7 @@ export default {
           mensaje_correcto:
             'PEPS asegura la rotación de inventarios y que el café no supere los 30 días post-tostión, preservando su frescura.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
@@ -643,7 +643,7 @@ export default {
           mensaje_correcto:
             'La higiene de manos es obligatoria siempre, independientemente de si el cliente ve o no la preparación, según la Resolución 2674 de 2013.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
@@ -677,7 +677,7 @@ export default {
           mensaje_correcto:
             'La mise en place reduce tiempos y evita la exposición innecesaria de insumos a temperatura ambiente, asegurando frescura y eficiencia.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
@@ -694,7 +694,7 @@ export default {
           mensaje_correcto:
             'La resolución 2674 exige conservar los registros de limpieza y desinfección por un mínimo de dos años.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:

@@ -32,7 +32,7 @@
               i  checklist
               |  contribuye a garantizar un servicio seguro, eficiente y con altos estándares de calidad:
           .bloque-enlace__accion
-            a.boton-enlace(:href="obtenerLink('/downloads/Lista_verificacion_diaria.pdf')" target="_blank")
+            a.boton-enlace(:href="obtenerLink('/downloads/Anexo_01_Lista_de_verificacion_diaria.pdf')" target="_blank")
               span.boton-enlace__texto Ver anexo
               i.boton-enlace__icono.fas.fa-file-download
 
@@ -47,7 +47,7 @@
     .row.justify-content-center.align-items-start.mb-4
       .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema6/img_3.png" alt="Barista dosificando café molido en el portafiltro junto al molino")
+          img.img-fluid(src="@/assets/curso/tema6/img_3.png" alt="")
       .col-12.col-lg-9.mb-0
         .d-flex.align-items-start.lista-numerada__item.mb-4(data-aos="zoom-in-right")
           .titulo-principal__numero.titulo-principal__numero-1.titulo-principal__numero--sm.color-acento-botones.flex-shrink-0
@@ -91,7 +91,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img.img-fluid(src="@/assets/curso/tema6/img_4.png" alt="Extracción de  <em>espresso</em> midiéndose en una jarra de vidrio graduada")
+        img.img-fluid(src="@/assets/curso/tema6/img_4.png" alt="")
       .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
         p.mb-0 La temperatura de extracción ideal es 92 - 96 °C, medida en la salida del difusor (grupo). Se puede verificar con un termómetro de contacto (menos preciso) o, idealmente, con un termofiltro con termopar (instrumento de calibración profesional). Si la temperatura es baja, se debe ajustar el termostato de la caldera (para máquinas de caldera simple) o revisar el restrictor (para intercambiador de calor). Si es alta, se puede realizar un <em>cooling flush</em> (purgar agua del grupo hasta que la temperatura baje al rango deseado).
 
@@ -129,7 +129,7 @@
               | Comprobar la existencia de tazas, vasos, agitadores, servilletas y elementos de limpieza.
       .col-12.col-md-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema6/img_5.png" alt="Bolsa de café en grano junto a vasos y planta de café")
+          img.img-fluid(src="@/assets/curso/tema6/img_5.png" alt="")
 
 </template>
 

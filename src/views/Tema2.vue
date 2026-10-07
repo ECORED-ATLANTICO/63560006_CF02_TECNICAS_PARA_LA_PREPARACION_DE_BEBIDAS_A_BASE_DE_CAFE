@@ -9,7 +9,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img.img-fluid(src="@/assets/curso/tema2/img_1.png" alt="Barista preparando café en la estación de trabajo")
+        img.img-fluid(src="@/assets/curso/tema2/img_1.png" alt="")
       .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
         p.mb-0 La falta de limpieza es la causa principal de sabores desagradables (rancios, quemados, metálicos) y de fallos técnicos en los equipos. Un barista profesional no solo sabe extraer un buen  <em>espresso</em>, sino que mantiene su estación de trabajo impecable. Este capítulo describe las rutinas diarias, semanales y periódicas de mantenimiento, así como la importancia de documentar cada tarea en registros accesibles a las auditorías sanitarias.
 
@@ -79,7 +79,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema2/img_6.png" alt="Persona disfrutando una bebida de café")
+          img.img-fluid(src="@/assets/curso/tema2/img_6.png" alt="")
       .col-12.col-lg-12.col-xl-8.mb-3.mb-lg-0(data-aos="flip-left")
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
@@ -115,7 +115,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-6.col-md-2.col-lg-4.mb-lg-0.mb-3
             .col-12.col-md-10.col-lg-8.mb-lg-0
-              p.mb-0.p-4.px-4 La calidad de un  <em>espresso</em> no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. Indague a continuación y conozca cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
+              p.mb-0.p-4.px-4 La calidad de un  <em>espresso</em> no depende únicamente de una buena extracción; también es el resultado del cuidado diario de los equipos. A continuación, se invita a escuchar el pódcast para conocer cómo una rutina de limpieza adecuada puede marcar la diferencia en cada taza de café:
               TarjetaAudio.background-img--01.p-4.m-4.mx-4.mb-5.mt-0.col-10.col-md-8(
                 texto="<em >“El ojo del barista: identificando granos defectuosos </em>"
                 :audio="require('../assets/curso/podcast/podcast_1.mp3')"
@@ -139,7 +139,7 @@
       .col-12.col-lg-9.mb-3.mb-lg-0
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
           p.mb-0 También se desmonta el difusor (disco de dispersión) y la junta del grupo, si el modelo lo permite. Se remojan en agua caliente con detergente durante 15 minutos, se cepillan y enjuagan. Se revisa que los orificios del difusor estén completamente libres de obstrucciones; si están bloqueados, se limpian con un palillo de plástico.
-        p.mb-4(data-aos="zoom-in-right") La limpieza del molino es esencial. Se desconecta el equipo de la corriente. Se retira la tolva y se cepillan las fresas con un cepillo de cerdas duras (nunca usar agua ni productos químicos). Se aspira el polvo de café acumulado. Si el molino tiene sistema de purga, se pueden usar pastillas limpiadoras (Grindz) según las instrucciones del fabricante, pero siempre purgando luego con 50 - 100 g de café que se desecharán. La limpieza semanal del molino reduce significativamente la cantidad de finos y mejora la uniformidad de la molienda.
+        p.mb-4(data-aos="zoom-in-right") La limpieza del molino es esencial. Se desconecta el equipo de la corriente. Se retira la tolva y se cepillan las fresas con un cepillo de cerdas duras (nunca usar agua ni productos químicos). Se aspira el polvo de café acumulado. Si el molino tiene sistema de purga, se pueden usar pastillas limpiadoras (Grindz) según las instrucciones del fabricante, pero siempre purgando luego con 50-100 g de café que se desecharán. La limpieza semanal del molino reduce significativamente la cantidad de finos y mejora la uniformidad de la molienda.
 
     .subtitulo-destacado.mb-4(data-aos="flip-left")
       .subtitulo-destacado__icono
@@ -156,7 +156,7 @@
           p.mb-0 Los filtros de agua tienen vida útil limitada. El filtro de sedimentos (polipropileno) se cambia cada 3 - 6 meses; el filtro de carbón activado, cada 6 - 12 meses. La fecha de cambio debe registrarse. Un filtro saturado no retiene contaminantes y puede incluso liberar bacterias.
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
-              img(src='@/assets/curso/tema2/img_16.png', class="img-fluid w-100 h-100 object-fit-cover" alt="Taza de café con arte latte").p-0
+              img(src='@/assets/curso/tema2/img_16.png', class="img-fluid w-100 h-100 object-fit-cover" alt="").p-0
 
     p.mb-0(data-aos="zoom-in-right") La desincrustación de la caldera (descalcificación) se hace anualmente, o cada 6 meses si el agua es muy dura. Se usa un desincrustante específico (ácido cítrico en polvo o líquido desincrustante) siguiendo las instrucciones del fabricante. En máquinas de intercambiador de calor o doble caldera, esta tarea debe ser realizada por un técnico, porque requiere desmontar partes y manipular componentes eléctricos.
     p.mb-4(data-aos="zoom-in-right") La calibración de la balanza se realiza mensualmente usando pesas patrón de 100 g y 500 g. Si la lectura varía más de 0,2 g, se debe recalibrar o reemplazar la balanza.

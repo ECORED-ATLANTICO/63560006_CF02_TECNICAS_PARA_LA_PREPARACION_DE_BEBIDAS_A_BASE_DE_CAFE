@@ -288,96 +288,25 @@ figcaption
       font-size: 1rem
       padding: 0.4rem
 
-// TabsA
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
 .tabs-a
-  .col-sm-6
-    flex: 0 0 100% !important
-    max-width: 100% !important
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
 
-.tabs-a.color-acento-botones.mb-3.uno
-  .row
-    align-items: stretch !important
-    justify-content: center !important
-    .col-lg-4.col-xl-3
-      flex: 0 0 50% !important
-      max-width: 50% !important
-      display: flex
-      flex-direction: column
-
-      @media (min-width: 1200px)
-        flex: 0 0 28% !important
-        max-width: 28% !important
-
-      @media (max-width: 991px)
-        flex: 0 0 100% !important
-        max-width: 100% !important
-    .col-lg-8.col-xl-9
-      flex: 0 0 50% !important
-      max-width: 50% !important
-      display: flex !important
-
-      @media (min-width: 1200px)
-        flex: 0 0 72% !important
-        max-width: 72% !important
-
-      @media (max-width: 991px)
-        flex: 0 0 100% !important
-        max-width: 100% !important
-
-.tabs-a.color-acento-botones.mb-3.dos
-  .row
-    align-items: stretch !important
-    justify-content: center !important
-    .col-lg-4.col-xl-3
-      flex: 0 0 50% !important
-      max-width: 50% !important
-      display: flex
-      flex-direction: column
-
-      @media (min-width: 1200px)
-        flex: 0 0 45% !important
-        max-width: 45% !important
-
-      @media (max-width: 991px)
-        flex: 0 0 100% !important
-        max-width: 100% !important
-    .col-lg-8.col-xl-9
-      flex: 0 0 50% !important
-      max-width: 50% !important
-      display: flex !important
-
-      @media (min-width: 1200px)
-        flex: 0 0 55% !important
-        max-width: 55% !important
-
-      @media (max-width: 991px)
-        flex: 0 0 100% !important
-        max-width: 100% !important
-
-.tabs-a.tarjeta-tabs-a.color-acento-botones.mb-3.uno .col-sm-6.col-lg-12.mb-3
-  .tabs-a__tab
-    padding: 18px 22px !important
-    font-size: 0.95rem !important
-    flex-grow: 1
-.tabs-a.tarjeta-tabs-a.color-acento-botones.mb-3.dos .col-sm-6.col-lg-12.mb-3
-  .tabs-a__tab
-    padding: 18px 22px !important
-    font-size: 0.95rem !important
-    flex-grow: 1
-
-.tabs-a .tarjeta-tabs-a__tarjeta
-  flex-grow: 1 !important
-  width: 100%
-  display: flex !important
-  align-items: center !important
-  flex-direction: column !important
-  justify-content: center !important
-
-.tabs-a
-  .tarjeta
-    display: flex  !important
-    flex-direction: column  !important
-    justify-content: center  !important
 
 // Tabla a 
 .tabla-a thead
@@ -1344,3 +1273,5 @@ table th, table td
 .lista-numerada__item
   border-bottom: 1px solid #AFAFAF
   padding-bottom: 1rem
+
+

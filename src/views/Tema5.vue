@@ -9,7 +9,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img.img-fluid(src="@/assets/curso/tema5/img_1.png" alt="Barista conversando con una clienta en la barra de la cafetería")
+        img.img-fluid(src="@/assets/curso/tema5/img_1.png" alt="")
       .bloque-texto-t__texto.color-secundario-20.col-12.col-lg-10.mb-0
         p.mb-0 El barista no solo prepara la bebida; también la presenta y la sirve. La calidad técnica puede verse opacada por un mal servicio. Este capítulo aborda los principios de atención al cliente, la presentación personal, la comunicación efectiva y las normas de protocolo en diferentes contextos (desde una cafetería informal hasta un evento formal).
 
@@ -41,7 +41,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema5/img_3.png" alt="Barista sirviendo leche en una taza de café")
+          img.img-fluid(src="@/assets/curso/tema5/img_3.png" alt="")
       .col-12.col-lg-9.mb-0
         .tarjeta.tarjeta--fondo-img-5.h-100.p-4.px-5.mb-3(data-aos="zoom-in-right")
           p.mb-0 El uniforme del barista debe estar impecable: camisa o chaqueta sin manchas, pantalón oscuro, gorro o cofia que cubra todo el cabello, tapabocas ajustado, calzado cerrado antideslizante. No se permiten accesorios que puedan caer al alimento (aretes colgantes, cadenas, pulseras con partes sueltas).
@@ -94,8 +94,8 @@
       h5 Figura 2.
       |    Etiqueta en la mesa (servicio a clientes sentados)
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-none d-lg-block", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3
-      img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid d-block d-lg-none", alt="Recomendaciones para el servicio de la bebida al cliente. Cada recomendación aparece dentro de un recuadro de color conectado a un marco rectangular del mismo tono. Los mensajes indican: servir la taza por el lado derecho sin pasarla sobre el plato o los cubiertos del cliente; colocar la taza suavemente sobre la mesa; despedirse cordialmente diciendo “disfrute su café” sin esperar propina de forma invasiva; y, si el cliente solicita un endulzante, ofrecer diferentes opciones y presentarlo en un platillo pequeño, evitando colocarlo directamente sobre la mesa.").mb-3
+      img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-none d-lg-block", alt="Recomendaciones para servir café: entregar por la derecha, colocar suavemente, despedirse cordialmente y ofrecer endulzantes en un platillo.").mb-3
+      img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid d-block d-lg-none", alt="Recomendaciones para servir café: entregar por la derecha, colocar suavemente, despedirse cordialmente y ofrecer endulzantes en un platillo.").mb-3
       figcaption Nota. SENA, (2026).
 </template>
 

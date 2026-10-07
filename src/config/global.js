@@ -155,7 +155,7 @@ export default {
     {
       termino: 'FNC',
       significado:
-        'Federación Nacional de Cafeteros de Colombia: gremio que representa a los productores, promueve la calidad del café colombiano y administra el Fondo Nacional del Café.',
+        '\u200B Federación Nacional de Cafeteros de Colombia: gremio que representa a los productores, promueve la calidad del café colombiano y administra el Fondo Nacional del Café.',
     },
     {
       termino: 'Junta del grupo',
@@ -180,7 +180,7 @@ export default {
     {
       termino: 'PEPS',
       significado:
-        'Principio “primero en entrar, primero en salir” para la rotación de inventarios, aplicable a café y leche.',
+        'Principio “Primero en Entrar, Primero en Salir” para la rotación de inventarios, aplicable a café y leche.',
     },
     {
       termino: 'Pisón (<em>tamper</em>)',
@@ -190,7 +190,7 @@ export default {
     {
       termino: 'POES',
       significado:
-        'Procedimiento operativo estandarizado de saneamiento: documento que detalla paso a paso una tarea de limpieza, desinfección o mantenimiento.',
+        '\u200B Procedimiento Operativo Estandarizado de Saneamiento: documento que detalla paso a paso una tarea de limpieza, desinfección o mantenimiento.',
     },
     {
       termino: 'Resolución 2674 de 2013',
@@ -245,8 +245,8 @@ export default {
     },
     {
       referencia:
-        'Montilla, J., Arcila, J., Aristizábal, M., et al. (2008). Caracterización de algunas propiedades físicas y factores de conversión del café durante el proceso de beneficio húmedo tradicional. <em>Cenicafé</em>, 59(2), 120–142.',
-      link: 'https://biblioteca.cenicafe.org/handle/10778/206',
+        'Montilla, J., Arcila, J., Aristizábal, M., et al. (2008). Propiedades físicas y factores de conversión del café en el proceso de beneficio. Cenicafé, 59(2), 120‑142.',
+      link: 'https://biblioteca.cenicafe.org/bitstream/10778/358/1/avt0370.pdf',
     },
     {
       referencia:
@@ -260,13 +260,14 @@ export default {
     },
     {
       referencia:
-        'Rao, S. (2021). <em>The Professional Barista’s Handbook</em> (edición en español adaptada por FNC). Scott Rao Publishing.',
-      link: 'https://es.scribd.com/document/397456183/rao-barista-pdf',
+        'Rao, S. (2021). The professional barista’s handbook (Edición en español adaptada por FNC). Scott Rao Publishing.',
+      link: '',
     },
     {
       referencia:
         'Specialty Coffee Association. (2022). <em>SCA Water Quality Handbook</em>. SCA.',
-      link: 'https://sca.coffee',
+      link:
+        'https://panama.worldofcoffee.org/?gad_source=1&gad_campaignid=24231374128&gbraid=0AAAABEZJfwKXB3FB7y-7Wg5Yh959aEg5t&gclid=CjwKCAjwoOjVBhArEiwAUwDakwYZ-XLFwNmxi00zLopbOJUDndM26iUKqHMw659n15IPS1m42qshrBoCvM8QAvD_BwE',
     },
   ],
   creditos: [

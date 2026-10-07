@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema1/img_1.png" alt="Barista preparando una bebida de café en la máquina de  <em>espresso</em>")
+          img.img-fluid(src="@/assets/curso/tema1/img_1.png" alt="")
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="zoom-in-right")
         p.mb-0 La correcta operación de una cafetería comienza por conocer en profundidad la maquinaria y los utensilios que se utilizan a diario. La máquina de  <em>espresso</em> y el molino son el corazón del negocio; de su estado y ajuste depende la consistencia de cada bebida. Un barista que no entiende cómo funciona su equipo no puede diagnosticar fallos ni mantener la calidad. Este capítulo describe los componentes de estos equipos, los tipos de máquinas según su caldera y grado de automatización, los molinos de fresas y sistemas de dosificación, y los utensilios esenciales para el servicio y la limpieza.
 
@@ -28,19 +28,19 @@
           div(titulo="El subsistema hidráulico")
             p.mb-0 Está compuesto por la bomba, las tuberías y los grupos portafiltro. La bomba, que puede ser rotativa o vibratoria, es la encargada de presurizar el agua. Las bombas rotativas, utilizadas en máquinas profesionales, ofrecen una presión constante y son más silenciosas, mientras que las vibratorias son más económicas pero menos estables. El agua, una vez presurizada, circula por tuberías de cobre o acero inoxidable hasta los grupos. Cada grupo consta de un portafiltro (que se acopla mediante una junta de goma o silicona), una cesta (sencilla, doble o triple, con orificios calibrados) y un difusor (disco de dispersión que reparte el agua uniformemente sobre la cama de café). La junta del grupo es uno de los elementos que más se desgasta; una junta en mal estado provoca pérdidas de presión y fugas de agua por el borde del portafiltro, lo que obliga a cambiarla cada seis meses aproximadamente.
           div(titulo="El subsistema térmico")
-            p.mb-0 Incluye la caldera (o intercambiador de calor), los termostatos y las lanzas de vapor y agua caliente. La caldera almacena agua a alta temperatura (120 - 130 °C para generar vapor a 1 - 1,2 bares). En las máquinas de caldera simple, la misma caldera suministra tanto el agua para el  <em>espresso</em> (que debe estar entre 92 y 96 °C) como el vapor; para compensar, el barista debe realizar un <em>cooling flush</em> (purgado) antes de la extracción para bajar la temperatura del grupo. En las máquinas de doble caldera o con intercambiador de calor, el agua de extracción circula por un circuito independiente, manteniendo una temperatura estable sin necesidad de purgas largas. La lanza de vapor extrae vapor para texturizar la leche; su boquilla tiene una o dos salidas y debe limpiarse después de cada uso. La lanza de agua caliente suministra agua a unos 90 - 95 °C para preparar americanos, té o tareas de limpieza.
+            p.mb-0 Incluye la caldera (o intercambiador de calor), los termostatos y las lanzas de vapor y agua caliente. La caldera almacena agua a alta temperatura (120-130 °C para generar vapor a 1-1,2 bares). En las máquinas de caldera simple, la misma caldera suministra tanto el agua para el  <em>espresso</em> (que debe estar entre 92 y 96 °C) como el vapor; para compensar, el barista debe realizar un <em>cooling flush</em> (purgado) antes de la extracción para bajar la temperatura del grupo. En las máquinas de doble caldera o con intercambiador de calor, el agua de extracción circula por un circuito independiente, manteniendo una temperatura estable sin necesidad de purgas largas. La lanza de vapor extrae vapor para texturizar la leche; su boquilla tiene una o dos salidas y debe limpiarse después de cada uso. La lanza de agua caliente suministra agua a unos 90-95 °C para preparar americanos, té o tareas de limpieza.
           div(titulo="El subsistema eléctrico")
             p.mb-0 Incluye la tarjeta controladora, los interruptores y los manómetros. Los manómetros son instrumentos críticos para el barista: uno mide la presión de la caldera (relacionada con la temperatura del vapor) y otro mide la presión de la bomba (que debe mantenerse en 9 bares durante la extracción). Algunas máquinas incorporan un tercer manómetro para la presión de la línea de alimentación de agua. La correcta interpretación de estos manómetros permite ajustar la máquina y detectar fallos a tiempo. Por ejemplo, una lectura baja en el manómetro de la bomba puede indicar un filtro obstruido o una fuga en el sistema hidráulico.
       .col-12.col-md-8.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema1/img_3.png" alt="Grupo portafiltro de una máquina de  <em>espresso</em>")
+          img.img-fluid(src="@/assets/curso/tema1/img_3.png" alt="")
 
     p.mb-4(data-aos="zoom-in-right") Para facilitar la mayor comprensión de estos componentes, a continuación, se presentan de manera detallada:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema1/img_4.png" alt="Persona disfrutando una bebida de café")
+          img.img-fluid(src="@/assets/curso/tema1/img_4.png" alt="")
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="flip-left")
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-6").p-2.rounded-3
@@ -48,7 +48,7 @@
               .tarjeta--01.mb-4
               p.mb-3.text-center.px-2
                 strong Caldera o intercambiador de calor:
-                |  almacena y calienta el agua. En máquinas de doble caldera se puede extraer  <em>espresso</em> y vaporizar leche simultáneamente. La presión de la caldera (1 - 1,2 bares) se correlaciona con la temperatura del vapor (120 - 130 °C).
+                |  almacena y calienta el agua. En máquinas de doble caldera se puede extraer  <em>espresso</em> y vaporizar leche simultáneamente. La presión de la caldera (1-1,2 bares) se correlaciona con la temperatura del vapor (120-130 °C).
             .tarjeta.tarjeta--fondo-img-2.h-100
               .tarjeta--02.mb-4
               p.mb-3.text-center.px-2
@@ -86,7 +86,7 @@
     .row.justify-content-center.align-items-start.mb-4
       .col-12.col-md-8.col-lg-8.col-xl-3.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema1/img_11.png" alt="Taza sobre la bandeja de una máquina de  <em>espresso</em>")
+          img.img-fluid(src="@/assets/curso/tema1/img_11.png" alt="")
       .col-12.col-lg-12.col-xl-9.mb-3.mb-lg-0(data-aos="flip-left")
         TabsA.tarjeta-tabs-a.color-acento-botones.mb-3.uno
           .tarjeta.tarjeta--verde-claro.p-5(titulo="Termobloque")
@@ -232,7 +232,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-3.mb-4
         figure.col-3.mb-4(data-aos="flip-left")
-          img.img-fluid(src="@/assets/curso/tema1/img_13.svg", class="img-fluid d-none d-lg-block", alt="Taza sobre la bandeja de una máquina de  <em>espresso</em>")
+          img.img-fluid(src="@/assets/curso/tema1/img_13.svg", class="img-fluid d-none d-lg-block", alt="")
         p.mb-0(data-aos="flip-left") El molino es un equipo clave en la preparación del  <em>espresso</em>, ya que influye directamente en la frescura del café molido y en la precisión de la dosis. Una molienda adecuada favorece extracciones uniformes y bebidas de mejor calidad, mientras que un molino mal ajustado o desgastado afecta el sabor y la consistencia del producto final.
       .col-12.col-lg-9.mb-0
         .tarjeta.tarjeta--fondo-img-3.p-5.p-lg-4.px-lg-5(data-aos="zoom-in-right")
